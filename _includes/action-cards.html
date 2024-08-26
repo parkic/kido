@@ -1,0 +1,29 @@
+<section class="action-cards mb-20 lg:mb-40">
+  <div class="container mx-auto">
+    <div class="flex flex-col lg:flex-row justify-between gap-6">
+      {% for card in page.action_cards %}
+        <div class="action-card relative flex">
+          <div class="flex">
+            <div class="w-2/5">
+              <img class="action-card-image" src="{{ card.image }}" alt="{{ card.title }}">
+            </div>
+            <div class="w-3/5 flex flex-col justify-center">
+              <h3 class="mb-2">{{ card.title }}</h3>
+              <p class="text-sm mb-8">{{ card.description }}</p>
+              <div>
+                <a href="{{ card.button_url }}" class="btn-black flex gap-x-2 items-center font-semibold inline-flex">
+                  {{ card.button_text }}
+                  <div class="icon text-primary transition duration-300">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.12088 14.7781L14.7777 1.1213M14.7777 1.1213H4.53509M14.7777 1.1213V11.3639" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>          
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

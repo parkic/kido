@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} | Kido Cloud`</title>
+  {% if page.meta_description %}
+    <meta name="description" content="{{ page.meta_description }}">
+  {% endif %}
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/tailwind.css" />
+  
+  <link rel="stylesheet" href="/css/style.css" >
+  
+  <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+</head>
+
+<body id="{{ current_page }}">
+
+<script> document.body.classList.add('smoothLoad') </script>

@@ -1,0 +1,30 @@
+<header>
+  <div class="bg-black">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-center gap-x-2 py-2">
+        <img src="{{ page.banner.icon }}" alt="Kido Cloud Icon small">
+        <div class="text-xs text-white">
+          {{ page.banner.banner_text | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto">
+    <nav class="flex justify-between py-2 md:py-8 items-baseline logo-burger-container">
+      <div class="">
+        <a href="/?a=hidden">
+          <img class="header-logo" src="/assets/icons/logo-orange-cloud.svg" alt="Kido Cloud Logo">
+        </a>
+      </div>
+      <a href="/pricing" class="btn-black flex gap-x-2 items-center font-semibold">
+        Pricing 
+        <div class="text-primary transition duration-300">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.12088 14.7781L14.7777 1.1213M14.7777 1.1213H4.53509M14.7777 1.1213V11.3639" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>          
+        </div>
+      </a>
+    </nav>
+  </div>
+</header>

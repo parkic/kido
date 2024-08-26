@@ -1,0 +1,20 @@
+<div class="scroll-wrapper pt-20">
+  <div class="scroll-container flex gap-x-6 pt-4 pb-40 px-10">
+    {% for feature in page.features %}
+      <div class="feature-card relative flex flex-col gap-y-5 pb-40">
+        <div class="feature-card-icon">
+          <img src="{{ feature.icon }}" alt="{{ feature.title }}-icon"> 
+        </div>
+        <div class="mb-6">
+          <h4 class="mb-2 anim">{{ feature.title }}</h4>
+          <p class="feature-description">{{ feature.description }}</p>
+        </div>
+        {% if feature.image and feature.image != '' %}
+          <div class="feature-card-image absolute bottom-0">
+            <img src="{{ feature.image }}" alt="{{ feature.title }}">
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

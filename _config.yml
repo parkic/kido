@@ -1,0 +1,55 @@
+title: Kido Cloud
+short_title: Kido Cloud
+description: >- # this means to ignore newlines until "baseurl:"
+
+baseurl:
+permalink: "/:path/"
+include: ['_pages']
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+collections:
+  posts:
+    output: true
+  en:
+    output: true
+  hr:
+    output: true
+  cz:
+    output: true
+    permalink: "/cz/_posts/"
+jekyll-archives:
+  enabled: all
+  layout: "archive"
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+#   - _pages/
