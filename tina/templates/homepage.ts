@@ -135,6 +135,141 @@ export function homepageFields() {
           label: "Button URL",
         }
       ]
+    },
+    {
+      type: "object",
+      name: "care_is_at_our_core",
+      label: "Care is at our core",
+      fields: [
+        {
+          type: "string",
+          name: "title",
+          label: "Title",
+        },
+        {
+          type: "rich-text",
+          name: "description",
+          label: "Description",
+        },
+        {
+          type: "object",
+          name: "cards",
+          label: "Cards",
+          list: true,
+          ui: {
+            itemProps: (item) => {
+              return { label: `${item?.title}`}
+            },
+          },
+          fields: [
+            {
+              type: "string",
+              name: "title",
+              label: "Title",
+            },
+            {
+              type: "string",
+              name: "description",
+              label: "Description",
+            },
+            {
+              type: "image",
+              name: "icon",
+              label: "Icon",
+              previewSrc: (src: string) => src
+            }
+          ]
+        },
+        {
+          type: "object",
+          name: "images",
+          label: "Images",
+          list: true,
+          fields: [
+            {
+              type: "image",
+              name: "image",
+              label: "Image",
+              previewSrc: (src: string) => src
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "object",
+      name: "peace_of_mind",
+      label: "Peace of Mind",
+      fields: [
+        {
+          type: "string",
+          name: "title",
+          label: "Title",
+        },
+        {
+          type: "rich-text",
+          name: "description",
+          label: "Description",
+        },
+      ]
+    },
+    {
+      type: "object",
+      name: "our_promise",
+      label: "Our Promise",
+      fields: [
+        {
+          type: "string",
+          name: "above_title",
+          label: "Above Title",
+        },
+        {
+          type: "string",
+          name: "title",
+          label: "Title",
+        },
+        {
+          type: "rich-text",
+          name: "description",
+          label: "Description",
+        },
+        {
+          type: "object",
+          name: 'images',
+          label: 'Images',
+          list: true,
+          fields: [
+            {
+              type: 'image',
+              name: 'image',
+              label: 'Image',
+              previewSrc: (src: string) => src
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "object",
+      name: "bottom_cta",
+      label: "Bottom CTA",
+      fields: [
+        {
+          type: "string",
+          name: "title",
+          label: "Title",
+        },
+        {
+          type: "string",
+          name: "button_text",
+          label: "Button Text",
+        },
+        {
+          type: "string",
+          name: "button_url",
+          label: "Button URL",
+        }
+      ]
     }
    
   ] as TinaField[];
