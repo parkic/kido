@@ -26,6 +26,7 @@ body {
   list-style: none;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
+  color: #282828;
 }
 body.smoothLoad {
   /* animation: smoothLoad; */
@@ -122,6 +123,17 @@ h6 {
 .btn-black:hover .text-primary {
   color: var(--black);
 }
+.btn-primary {
+  background-color: var(--orange);
+  color: #FFF;
+  padding: 10px 24px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #FFF;
+  color: var(--orange);
+}
 
 /* --------------------- */
 
@@ -129,7 +141,9 @@ h6 {
   width: 98px;
   height: 53px;
 }
-
+footer {
+  background-color: #FFF;
+}
 .footer-links {
   display: flex;
   gap: 10px;
@@ -316,6 +330,51 @@ h6 {
   padding: 80px 160px;
 }
 
+/* Pricing */
+#pricing {
+  background-color: var(--background-color);
+}
+.pricing-cards-container {
+  transform: translateX(120px);
+}
+.pricing-card {
+  width: 400px;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #FFF;
+  border: 1px solid #DFDFDF;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-card.yearly {
+  background-color: var(--black);
+  color: #FFF;
+}
+.pricing-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-color: #A6A4A4;
+}
+.pricing-card .main-price {
+  font-size: 32px;}
+.pricing-card .second-price {
+  color: #C1C1C1;
+  font-size: 20px;
+}
+.pricing-card .description {
+  color: #6B6B6B;
+  font-size: 16px;
+}
+.pricing-card.yearly .description {
+  color: #A6A4A4;
+}
+.pricing-card .features-container {
+  border-radius: 8px;
+  background-color: #F2F2F2;
+  border: 1px solid #DFDFDF;
+}
+.pricing-card .feature {
+  font-size: 16px;
+  color: var(--black);
+}
 
 
 
@@ -329,7 +388,8 @@ h6 {
 
 @media (max-width: 500px) {
   .container {
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   h1, h2 {
     font-size: 32px;
@@ -429,13 +489,42 @@ h6 {
     padding-bottom: 80px;
   }
 
-
-
-
   .peace-of-mind-content {
     border-radius: 0;
     width: 100%;
   }
+
+
+  .pricing-cards-container {
+    padding: 0 40px 0 320px;
+    transform: none;
+    overflow-x: auto;
+  }
+  .pricing-cards-container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .pricing-cards-container::-webkit-scrollbar { 
+      display: none;  /* Safari and Chrome */
+  }
+
+  .pricing-card {
+    min-width: 320px;
+    padding: 24px;
+  }
+  .pricing-card .main-price {
+    font-size: 24px;
+  }
+  .pricing-card .second-price {
+    font-size: 16px;
+  }
+  .pricing-card .description {
+    font-size: 14px;
+  }
+  .pricing-card .feature {
+    font-size: 14px;
+  }
+
 }
 
 /* Keyframes */

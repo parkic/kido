@@ -1,0 +1,86 @@
+{% assign current_page = 'pricing' %}
+{% assign page_title = 'Pricing' %}
+
+{% include head.html %}
+{% include nav.html %}
+
+<main id="pricing" class="relative overflow-hidden">
+  <div class="hidden lg:block absolute bottom-0" style="transform: translateY(40px); left: 60px">
+    <img src="{{ page.cover_image }}" alt="pricing">
+  </div>
+
+  <div class="container mx-auto pb-24 lg:pb-40 pt-8">
+    <h1 class="mb-10 text-center">{{ page.cover_title }}</h1>
+    <div class="pricing-cards-container flex justify-center gap-4 lg:gap-10">
+      <div class="monthly pricing-card">
+        <div class="flex justify-between items-start">
+          <h2>{{ page.monthly_card.title }}</h2>
+          <div class="flex flex-col items-end mb-8">
+            <div class="main-price font-bold mb-1">{{ page.monthly_card.main_price }}</div>
+            <div class="second-price text-sm">{{ page.monthly_card.second_price }}</div>
+          </div>
+        </div>
+        <div class="description mb-8">
+          {{ page.monthly_card.description }}
+        </div>
+        <div class="features-container p-6 mb-8">
+          {% for feature in page.monthly_card.features %}
+            <div class="flex gap-x-4 mb-2">
+              <img src="/assets/icons/checkbox-checked.svg">
+              <div class="feature">
+                {{ feature.title }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="flex justify-end">
+          <a href="{{ page.monthly_card.cta_link }}" class="btn-black flex gap-x-2 items-center">
+            <div>
+              {{ page.monthly_card.button_text }}
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.1016 12L3.10157 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.1016 6L21.1016 12L15.1016 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="yearly pricing-card">
+        <div class="flex justify-between items-start">
+          <h2>{{ page.yearly_card.title }}</h2>
+          <div class="flex flex-col items-end mb-8">
+            <div class="main-price font-bold mb-1">{{ page.yearly_card.main_price }}</div>
+            <div class="second-price text-sm">{{ page.yearly_card.second_price }}</div>
+          </div>
+        </div>
+        <div class="description mb-8">
+          {{ page.yearly_card.description }}
+        </div>
+        <div class="features-container p-6 mb-8">
+          {% for feature in page.yearly_card.features %}
+            <div class="flex gap-x-4 mb-2">
+              <img src="/assets/icons/checkbox-checked.svg">
+              <div class="feature">
+                {{ feature.title }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="flex justify-end">
+          <a href="{{ page.yearly_card.cta_link }}" class="btn-primary flex gap-x-2 items-center">
+            <div>
+              {{ page.yearly_card.button_text }}
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.1016 12L3.10157 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.1016 6L21.1016 12L15.1016 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+{% include footer.html %}
