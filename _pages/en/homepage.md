@@ -4,9 +4,6 @@ cover_image: ''
 cover_title: Better Conversations <br> with Kido Cloud
 layout: index
 title: Homepage
-banner:
-  banner_text: 'Now Available in English, Greek and Serbian'
-  icon: /assets/icons/logo_small.png
 features:
   - icon: /assets/icons/card-icon-1.svg
     title: School info Management

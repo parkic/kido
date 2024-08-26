@@ -23,24 +23,6 @@ export function homepageFields() {
     },
     {
       type: "object",
-      name: "banner",
-      label: "Banner",
-      fields: [
-        {
-          type: "string",
-          name: "banner_text",
-          label: "Text",
-        },
-        {
-          type: "image",
-          name: "icon",
-          label: "Icon",
-          previewSrc: (src: string) => src
-        }
-      ]
-    },
-    {
-      type: "object",
       name: "features",
       label: "Features",
       list: true,
