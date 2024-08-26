@@ -139,6 +139,7 @@ peace_of_mind:
     happen freely, and children’s safety is never a question. From secure data
     handling to a seamless user experience, Kido offers a sense of calm and
     trust.”
+  image: /assets/images/Mockupa 2.png
 our_promise:
   above_title: OUR PROMISE
   title: A commitment to putting kids first
