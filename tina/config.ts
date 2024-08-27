@@ -2,6 +2,7 @@ import { defineConfig } from "tinacms";
 import { homepageFields } from "./templates/homepage";
 import { pricingFields } from "./templates/pricing";
 import { termsFields } from "./templates/terms";
+import { privacyFields } from "./templates/privacy";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -51,7 +52,12 @@ export default defineConfig({
             name: 'terms',
             label: 'Terms',
             fields: termsFields()
-          }
+          },
+          {
+            name: 'privacy',
+            label: 'Privacy',
+            fields: privacyFields()
+          },
         ]
       },
     ],
