@@ -34,7 +34,7 @@
           {% endfor %}
         </div>
         <div class="flex justify-end">
-          <a href="{{ page.monthly_card.cta_link }}" class="btn-black flex gap-x-2 items-center">
+          <div class="btn-black flex gap-x-2 items-center cursor-pointer" onclick="openCheckout('monthly')">
             <div>
               {{ page.monthly_card.button_text }}
             </div>
@@ -42,7 +42,7 @@
               <path d="M21.1016 12L3.10157 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M15.1016 6L21.1016 12L15.1016 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-          </a>
+          </div>
         </div>
       </div>
       <div class="yearly pricing-card">
@@ -67,7 +67,7 @@
           {% endfor %}
         </div>
         <div class="flex justify-end">
-          <a href="{{ page.yearly_card.cta_link }}" class="btn-primary flex gap-x-2 items-center">
+          <div class="btn-primary flex gap-x-2 items-center cursor-pointer" onclick="openCheckout('yearly')">
             <div>
               {{ page.yearly_card.button_text }}
             </div>
@@ -75,7 +75,7 @@
               <path d="M21.1016 12L3.10157 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M15.1016 6L21.1016 12L15.1016 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-          </a>
+          </div>
         </div>
       </div>
     </div>
