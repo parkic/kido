@@ -376,7 +376,41 @@ footer {
   color: var(--black);
 }
 
+#privacy-policy p, 
+#terms p {
+ margin-bottom: 12px;
+}
+#privacy-policy p a, 
+#terms p a {
+  text-decoration: underline;
+  color: orange;
+}
 
+#privacy-policy h2,
+#terms h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#privacy-policy h3,
+#terms h3 {
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+#privacy-policy ol,
+#terms ol {
+  margin-bottom: 1em;
+}
+#privacy-policy main ul,
+#terms main ul {
+  padding-left: 32px;
+  list-style: circle;
+}
+#privacy-policy main ol li,
+#privacy-policy main ul li,
+#terms main ol li,
+#terms main ul li {
+  margin-bottom: 0.25em;
+}
 
 
 
