@@ -5,9 +5,7 @@ title: Parents Landing Page
 page_title: Parents Landing Page
 values_section:
   title: |
-    The best way to watch them 
-
-    grow is with your own eyes.
+    The best way to watch them grow is with your own eyes. 
 
     This is the next best way.
   description: >
@@ -17,7 +15,7 @@ values_section:
     significant portion of their day at kindergarten. But in the rush of
     balancing work, home, and everything in between, those
 
-    precious details can often slip through the cracks. 
+    precious details can often slip through the cracks.
 
 
     When Kido Steps In, Your Worries about Missing Out are Gone.
@@ -78,14 +76,16 @@ features_section:
   title: |
     Kido helps you be there even when you’re not there.
   description: >
-    Imagine a tool that keeps you updated on your child’s activities, meals, and progress, all in one place.
-    No more scrambling to check various chat groups, jotting down notes, or trying to remember which day is show-and-tell.
+    Imagine a tool that keeps you updated on your child’s activities, meals, and
+    progress, all in one place. No more scrambling to check various chat groups,
+    jotting down notes, or trying to remember which day is show-and-tell.
 
 
-    Our app streamlines communication between you and your child's educators, ensuring that you’re always in the loop.
-    From daily updates to special milestones, everything is at your fingertips, reducing the common feeling that often comes
-    with not knowing how your child’s day is going. 
-  features: 
+    Our app streamlines communication between you and your child's educators,
+    ensuring that you’re always in the loop. From daily updates to special
+    milestones, everything is at your fingertips, reducing the common feeling
+    that often comes with not knowing how your child’s day is going.
+  features:
     - icon: /assets/icons/card-icon-9.svg
       title: Announcements
       description: >-
@@ -103,19 +103,19 @@ features_section:
       description: >-
         Simplify communication with direct, secure messaging between parents,
         teachers, and admins
-      image: /assets/images/card-image-11.png   
+      image: /assets/images/card-image-11.png
     - icon: /assets/icons/card-icon-8.svg
       title: Progress Reports
       description: >-
-        Track and share a child’s daily progress, including achievements and areas
-        for improvement
+        Track and share a child’s daily progress, including achievements and
+        areas for improvement
       image: /assets/images/card-image-8.png
     - icon: /assets/icons/card-icon-7.svg
       title: Meal Planning
       description: >-
         Plan and share weekly meal menus, ensuring all dietary needs and
         preferences are met
-      image: ''    
+      image: ''
     - icon: /assets/icons/card-icon-6.svg
       title: Child Profile
       description: >-
@@ -125,28 +125,32 @@ features_section:
     - icon: /assets/icons/card-icon-12.svg
       title: Photo Galleries
       description: >-
-        Capture and share memorable moments with a secure gallery that parents can
-        access anytime
+        Capture and share memorable moments with a secure gallery that parents
+        can access anytime
       image: ''
     - icon: /assets/icons/card-icon-13.svg
       title: Driver Tracking
       description: >-
-        Monitor the school bus in real-time to ensure safe and timely pick-ups and
-        drop-offs
+        Monitor the school bus in real-time to ensure safe and timely pick-ups
+        and drop-offs
       image: ''
     - icon: /assets/icons/card-icon-14.svg
       title: Customer Support
       description: Access prompt and friendly customer support whenever you need assistance
       image: /assets/images/card-image-14.png
-video_section: 
-  title: Still not convinced you need Kido in your child’s kindergarten?
-  description: >-
-    Not sure how our features can fit into your daily routine? Watch our short explainer video to see how Kido can make staying connected with your child’s day easier and more meaningful.
-  video: ''
-  video_button: 'Watch Now'
-mid_page_cta: 
-  above_text: Want to see Kido in action at your child’s kindergarten? 
-  content: Contact us today, and we’ll reach out to your child’s school to make it happen.
+video_section:
+  title: |
+    Still not convinced you need Kido in your child’s kindergarten?
+  description: >
+    Not sure how our features can fit into your daily routine? Watch our short
+    explainer video to see how Kido can make staying connected with your child’s
+    day easier and more meaningful.
+  video_button: Watch Now
+mid_page_cta:
+  above_text: Want to see Kido in action at your child’s kindergarten?
+  content: >
+    Contact us today, and we’ll reach out to your child’s school to make it
+    happen.
   button_text: Book a free demo call now
   button_url: '#'
 our_promise:
@@ -167,11 +171,12 @@ our_promise:
   images:
     - image: /assets/images/Log in 2.png
     - image: /assets/images/Log in 1.png
-bottom_cta: 
-  content: Contact us today, and we’ll reach out to your child’s school to make it happen.
+bottom_cta:
+  content: >
+    Contact us today, and we’ll reach out to your child’s school to make it
+    happen.
   button_text: Book a free demo call now
   button_url: '#'
-
 _template: parentsLP
 ---
 

@@ -71,6 +71,7 @@
     const valueBoxes = gsap.utils.toArray(".value-box")
     const valueBox = document.querySelector(".value-box")
     const valueBoxHeight = valueBox ? valueBox.offsetHeight : 300
+    const isMobile = window.innerWidth < 768;
     let maxHeight = 0
 
     valueBoxes.forEach(box => {
@@ -118,7 +119,7 @@
           ease: "none",
           scrollTrigger: {
             trigger: wrapper,
-            start: "top " + (80 + 15 * i),
+            start: isMobile ? "top 40px" : "top " + (80 + 15 * i),
             end: `bottom ${valueBoxHeight * 0.8}`,
             endTrigger: ".values",
             scrub: true,

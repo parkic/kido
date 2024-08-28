@@ -7,16 +7,16 @@
       </div>
     </div>
 
-    {<div class="values relative">
+    <div class="values relative">
       {% for value in page.values_section.values %}
       <div class="value-wrapper">
         <div class="value-box flex flex-col lg:flex-row items-center gap-x-12">
-          <div class="w-full lg:w-1/2 flex flex-col justify-between h-full">
+          <div class="w-full lg:w-1/2 flex flex-col justify-between lg:h-full">
             <div>
-              <div class="above-title mb-8"> {{ value.above_title }} </div>
+              <div class="above-title mb-4 lg:mb-8"> {{ value.above_title }} </div>
               <h3 class="mb-10 lg:w-3/4"> {{ value.title }} </h3>
             </div>
-            <div>
+            <div class="image-box">
               <img src="{{value.image}}" alt="{{ value.title }}" class="mx-auto value-box-image">
             </div>
           </div>
@@ -36,6 +36,6 @@
         </div>
       </div>
       {% endfor %}
-    </div>}
+    </div>
   </div>
 </section>
