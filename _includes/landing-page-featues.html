@@ -1,0 +1,12 @@
+<section class="features-section">
+  <div class="container mx-auto">
+    <div class="w-full lg:w-3/4 mx-auto mb-20">
+      <h2 class="text-center mb-8">{{ page.features_section.title | markdownify}}</h2>
+      <div class="description text-center">
+        {{ page.features_section.description | markdownify}}
+      </div>
+    </div>
+  </div>
+  
+  {% include features-carousel.html %}
+</section>

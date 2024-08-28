@@ -3,6 +3,7 @@ import { homepageFields } from "./templates/homepage";
 import { pricingFields } from "./templates/pricing";
 import { termsFields } from "./templates/terms";
 import { privacyFields } from "./templates/privacy";
+import { parentsLPFields } from "./templates/parentsLP";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -25,7 +26,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "./assets/images",
       publicFolder: "./",
     },
   },
@@ -57,6 +58,11 @@ export default defineConfig({
             name: 'privacy',
             label: 'Privacy',
             fields: privacyFields()
+          },
+          {
+            name: 'parentsLP',
+            label: 'Parents Landing Page',
+            fields: parentsLPFields()
           },
         ]
       },

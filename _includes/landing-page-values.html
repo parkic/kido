@@ -1,0 +1,41 @@
+<section class="values-section">
+  <div class="container mx-auto">
+    <div class="w-full lg:w-3/4 mx-auto mb-20">
+      <h2 class="text-center mb-8">{{ page.values_section.title | markdownify}}</h2>
+      <div class="description text-center">
+        {{ page.values_section.description | markdownify}}
+      </div>
+    </div>
+
+    {<div class="values relative">
+      {% for value in page.values_section.values %}
+      <div class="value-wrapper">
+        <div class="value-box flex flex-col lg:flex-row items-center gap-x-12">
+          <div class="w-full lg:w-1/2 flex flex-col justify-between h-full">
+            <div>
+              <div class="above-title mb-8"> {{ value.above_title }} </div>
+              <h3 class="mb-10 lg:w-3/4"> {{ value.title }} </h3>
+            </div>
+            <div>
+              <img src="{{value.image}}" alt="{{ value.title }}" class="mx-auto value-box-image">
+            </div>
+          </div>
+          <div class="features-container w-full lg:w-1/2">
+            {% for feature in value.features %}
+              <div class="feature-box my-5">
+                <div class="feature-title flex items-center gap-x-2 mb-2">
+                  <span class="w-2 h-2 bg-primary rounded-full"></span>
+                  <span>{{ feature.title }}</span>
+                </div>
+                <div class="feature-description">
+                  {{ feature.description }}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>}
+  </div>
+</section>

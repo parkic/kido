@@ -1,0 +1,20 @@
+<section class="mid-page-cta">
+  <div class="container mx-auto">
+    <div class="text-white mb-5">
+      {{ page.mid_page_cta.above_text | markdownify }}
+    </div>
+    <h2 class="text-white mb-10 w-full lg:w-2/3">
+      {{ page.mid_page_cta.content | markdownify }}
+    </h2>
+    <div class="inline-block">
+      <a href="{{ page.mid_page_cta.button_url }}" class="btn-black-secondary flex gap-x-2 items-center font-semibold">
+        {{ page.mid_page_cta.button_text }} 
+        <div class="text-primary transition duration-300">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.12088 14.7781L14.7777 1.1213M14.7777 1.1213H4.53509M14.7777 1.1213V11.3639" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>          
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

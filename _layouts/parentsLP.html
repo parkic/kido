@@ -1,0 +1,48 @@
+{% assign current_page = 'parents-landing-page' %}
+
+{% include head.html %}
+{% include nav.html %}
+
+<main>
+  <div class="container mx-auto">
+    <div class="cover">
+      
+    </div>
+  </div>
+
+  {% include landing-page-values.html %}
+
+  {% include landing-page-featues.html %}
+
+  {% include landing-page-video.html %}
+
+  {% include landing-page-orange-cta.html %}
+  
+  {% include our-promise.html %}
+
+
+
+
+
+  <section class="bottom-page-cta ">
+    <div class="container mx-auto">
+      <div class="w-full lg:w-2/3 mx-auto cta-box">
+        <h2 class="text-center text-white mb-10"> {{ page.bottom_cta.content | markdownify }} </h2>
+        <div class="flex justify-center mx-auto">
+          <a href="{{ page.bottom_cta.button_url }}" class="btn-primary flex gap-x-2 items-center font-semibold inline-block">
+            {{ page.bottom_cta.button_text }} 
+            <div class="">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.12088 14.7781L14.7777 1.1213M14.7777 1.1213H4.53509M14.7777 1.1213V11.3639" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>          
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+{% include footer.html %}
