@@ -1,0 +1,77 @@
+<div class="pricing-section">
+  <div class="hidden lg:block absolute bottom-0" style="transform: translateY(40px); left: 60px">
+    <img src="{{ page.pricing_section.section_image }}" alt="pricing">
+  </div>
+  
+  <div class="container mx-auto pb-24 lg:pb-40 pt-8">
+    <h1 class="mb-10 text-center">{{ page.pricing_section.section_title }}</h1>
+    <div class="pricing-cards-container flex justify-center gap-4 lg:gap-10">
+      <div class="monthly pricing-card">
+        <div class="flex justify-between items-start">
+          <h2>{{ page.pricing_section.monthly_card.title }}</h2>
+          <div class="flex flex-col items-end mb-8">
+            <div class="main-price font-bold mb-1">{{ page.pricing_section.monthly_card.main_price }}</div>
+            <div class="second-price text-sm">{{ page.pricing_section.monthly_card.second_price }}</div>
+          </div>
+        </div>
+        <div class="description mb-8">
+          {{ page.pricing_section.monthly_card.description }}
+        </div>
+        <div class="features-container p-6 mb-8">
+          {% for feature in page.pricing_section.monthly_card.features %}
+            <div class="flex gap-x-4 mb-2">
+              <img src="/assets/icons/checkbox-checked.svg">
+              <div class="feature">
+                {{ feature.title }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="flex justify-end">
+          <div class="btn-black flex gap-x-2 items-center cursor-pointer" onclick="openCheckout('monthly')">
+            <div>
+              {{ page.pricing_section.monthly_card.button_text }}
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.1016 12L3.10157 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.1016 6L21.1016 12L15.1016 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="yearly pricing-card">
+        <div class="flex justify-between items-start">
+          <h2>{{ page.pricing_section.yearly_card.title }}</h2>
+          <div class="flex flex-col items-end mb-8">
+            <div class="main-price font-bold mb-1">{{ page.pricing_section.yearly_card.main_price }}</div>
+            <div class="second-price text-sm">{{ page.pricing_section.yearly_card.second_price }}</div>
+          </div>
+        </div>
+        <div class="description mb-8">
+          {{ page.pricing_section.yearly_card.description }}
+        </div>
+        <div class="features-container p-6 mb-8">
+          {% for feature in page.pricing_section.yearly_card.features %}
+            <div class="flex gap-x-4 mb-2">
+              <img src="/assets/icons/checkbox-checked.svg">
+              <div class="feature">
+                {{ feature.title }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="flex justify-end">
+          <div class="btn-primary flex gap-x-2 items-center cursor-pointer" onclick="openCheckout('yearly')">
+            <div>
+              {{ page.pricing_section.yearly_card.button_text }}
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.1016 12L3.10157 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.1016 6L21.1016 12L15.1016 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

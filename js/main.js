@@ -19,11 +19,11 @@
   }
 
 // Parents Landing Page
-  if (document.querySelector('#parents-landing-page .values-section')) {
+  if (document.querySelector('#parents-landing-page .values-section') || document.querySelector('#kindergarten-landing-page .values-section')) {
 
     // Value boxes Above Title
     document.addEventListener('DOMContentLoaded', () => {
-      const valueBoxes = document.querySelectorAll("#parents-landing-page .value-box")
+      const valueBoxes = document.querySelectorAll("#parents-landing-page .value-box, #kindergarten-landing-page .value-box")
   
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
@@ -43,7 +43,7 @@
 
     // Feature Boxes
     document.addEventListener('DOMContentLoaded', () => {
-      const featureBoxes = document.querySelectorAll("#parents-landing-page .feature-box")
+      const featureBoxes = document.querySelectorAll("#parents-landing-page .feature-box, #kindergarten-landing-page .feature-box")
   
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {

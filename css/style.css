@@ -414,27 +414,36 @@ footer {
 }
 
 
-#parents-landing-page .cover {
+#parents-landing-page .cover,
+#kindergarten-landing-page .cover {
   min-height: calc(100vh - 320px);
 }
-#parents-landing-page .values-section {
+#parents-landing-page .values-section,
+#kindergarten-landing-page .values-section {
   padding: 80px 0;
   background-color: var(--orange);
   overflow: hidden;
   padding-bottom: 300px;
 }
-#parents-landing-page .values-section h2 {
+#kindergarten-landing-page .values-section {
+  margin-bottom: 200px;
+}
+#parents-landing-page .values-section h2,
+#kindergarten-landing-page .values-section h2 {
   color: #FFF;
 }
-#parents-landing-page .values-section .description p{
+#parents-landing-page .values-section .description p,
+#kindergarten-landing-page .values-section .description p{
   margin-bottom: 1rem;
   color: #FFF;
 }
-#parents-landing-page .value-wrapper {
+#parents-landing-page .value-wrapper,
+#kindergarten-landing-page .value-wrapper {
   flex: 1;
   margin-bottom: 120px;
 }
-#parents-landing-page .value-box {
+#parents-landing-page .value-box,
+#kindergarten-landing-page .value-box {
   border-radius: 64px;
   padding: 80px 100px;
   padding-bottom: 0px;
@@ -443,11 +452,12 @@ footer {
   border: 2px solid #6B6B6B;
   overflow: hidden;
 }
-#parents-landing-page .value-box h3 {
+#parents-landing-page .value-box h3,
+#kindergarten-landing-page .value-box h3 {
   font-size: 40px;
 }
-
-#parents-landing-page .value-box .above-title {
+#parents-landing-page .value-box .above-title,
+#kindergarten-landing-page .value-box .above-title {
   background-color: var(--black);
   color: #FFF;
   font-size: 14px;
@@ -456,13 +466,16 @@ footer {
   border-radius: 40px;
   transition: all 0.3s ease-in-out;
 }
-#parents-landing-page .value-box .value-box-image {
+#parents-landing-page .value-box .value-box-image,
+#kindergarten-landing-page .value-box .value-box-image {
   max-height: 500px;
 }
-#parents-landing-page .value-box .features-container {
+#parents-landing-page .value-box .features-container,
+#kindergarten-landing-page .value-box .features-container {
   max-width: 600px;
 }
-#parents-landing-page .value-box .feature-box {
+#parents-landing-page .value-box .feature-box,
+#kindergarten-landing-page .value-box .feature-box {
   background-color: #FFF;
   border: 1px solid #DFDFDF;
   border-radius: 16px;
@@ -471,37 +484,45 @@ footer {
   max-width: 480px;
   transition: all 0.3s ease-in-out;
 }
-#parents-landing-page .value-box .feature-box:nth-child(odd) {
+#parents-landing-page .value-box .feature-box:nth-child(odd),
+#kindergarten-landing-page .value-box .feature-box:nth-child(odd) {
   margin-left: auto;
 }
-#parents-landing-page .value-box .feature-box:hover {
+#parents-landing-page .value-box .feature-box:hover,
+#kindergarten-landing-page .value-box .feature-box:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-color: var(--orange);
 }
-#parents-landing-page .value-box .feature-title {
+#parents-landing-page .value-box .feature-title,
+#kindergarten-landing-page .value-box .feature-title {
   font-size: 16px;
   font-weight: 500;
 }
 
 
-#parents-landing-page .features-section {
+#parents-landing-page .features-section,
+#kindergarten-landing-page .features-section {
   background-color: var(--black);
   padding-top: 100px;
   padding-bottom: 20px;
 }
-#parents-landing-page .features-section h2 {
+#parents-landing-page .features-section h2,
+#kindergarten-landing-page .features-section h2 {
   color: #FFF;
 }
-#parents-landing-page .features-section .description p{
+#parents-landing-page .features-section .description p,
+#kindergarten-landing-page .features-section .description p {
   margin-bottom: 1rem;
   color: #FFF;
 }
 
-#parents-landing-page .video-section {
+#parents-landing-page .video-section,
+#kindergarten-landing-page .video-section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-#parents-landing-page .video-section .description p {
+#parents-landing-page .video-section .description p,
+#kindergarten-landing-page .video-section .description p {
   width: 80%;
   margin-left: auto;
   font-size: 16px;
@@ -509,7 +530,8 @@ footer {
   text-align: left;
   color: #6B6B6B;
 }
-#parents-landing-page .video-section .video-container { 
+#parents-landing-page .video-section .video-container,
+#kindergarten-landing-page .video-section .video-container { 
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
@@ -519,7 +541,8 @@ footer {
   background-color: #DFDFDF;
   overflow: hidden;
 }
-#parents-landing-page .video-section .video-button {
+#parents-landing-page .video-section .video-button,
+#kindergarten-landing-page .video-section .video-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -534,29 +557,55 @@ footer {
   cursor: pointer;
 }
 
-#parents-landing-page .mid-page-cta {
+#parents-landing-page .mid-page-cta,
+#kindergarten-landing-page .mid-page-cta {
   padding: 80px 0;
   background-color: var(--orange);
   margin-bottom: 200px;
 }
+#kindergarten-landing-page .mid-page-cta {
+  margin-bottom: 0;
+}
 #parents-landing-page .our-promise {
   margin-bottom: 320px;
 }
-#parents-landing-page .our-promise-image-box:nth-child(1) {
+#parents-landing-page .our-promise-image-box:nth-child(1){
   transform: translate(80px, -80px);
 }
 
-#parents-landing-page .bottom-page-cta  {
+#parents-landing-page .bottom-page-cta,
+#kindergarten-landing-page .bottom-page-cta {
   margin-bottom: 200px;
 }
-#parents-landing-page .bottom-page-cta .cta-box{
+#parents-landing-page .bottom-page-cta .cta-box,
+#kindergarten-landing-page .bottom-page-cta .cta-box {
   padding: 80px;
   background-color: var(--black);
   border-radius: 16px;
   color: #FFF;
 }
 
+#parents-landing-page footer,
+#kindergarten-landing-page footer {
+  background-color: var(--orange);
+  color: #FFF;
+}
+#parents-landing-page footer svg,
+#kindergarten-landing-page footer svg {
+  color: #FFF;
+}
 
+#kindergarten-landing-page .our-promise p{
+  margin-bottom: 1.4em;
+}
+#kinder-landing-page .our-promise {
+  padding-bottom: 80px;
+}
+#kindergarten-landing-page .pricing-section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--background-color);
+}
 
 
 @media (max-width: 1024px) {
@@ -715,68 +764,86 @@ footer {
     font-size: 14px;
   }
 
-  #parents-landing-page .values-section {
+  #parents-landing-page .values-section,
+  #kindergarten-landing-page .values-section {
     padding-bottom: 120px;
   }
-  #parents-landing-page .value-box {
+  #parents-landing-page .value-box,
+  #kindergarten-landing-page .value-box {
     padding: 24px;
   }
-  #parents-landing-page .value-box h3 {
+  #parents-landing-page .value-box h3,
+  #kindergarten-landing-page .value-box h3 {
     font-size: 24px;
   }
-  #parents-landing-page .value-box .image-box {
+  #parents-landing-page .value-box .image-box,
+  #kindergarten-landing-page .value-box .image-box {
     height: 160px;
     overflow: hidden;
     background-color: #FFF;
   }
-  #parents-landing-page .value-box .feature-box{
+  #parents-landing-page .value-box .feature-box,
+  #kindergarten-landing-page .value-box .feature-box {
     width: 100%;
     padding: 16px;
   }
-  #parents-landing-page .value-box .feature-description {
+  #parents-landing-page .value-box .feature-description,
+  #kindergarten-landing-page .value-box .feature-description {
     line-height: 125%;
   }
-  #parents-landing-page .features-section {
+  #parents-landing-page .features-section,
+  #kindergarten-landing-page .features-section {
     padding-top: 60px;
     padding-bottom: 0px;
   }  
   #parents-landing-page .features-section .description p,
-  #parents-landing-page .values-section .description p{
+  #kindergarten-landing-page .features-section .description p,
+  #parents-landing-page .values-section .description p,
+  #kindergarten-landing-page .values-section .description p {
     font-size: 16px;
   }
-  #parents-landing-page .our-promise-image-box:nth-child(1){
+  #parents-landing-page .our-promise-image-box:nth-child(1),
+  #kindergarten-landing-page .our-promise-image-box:nth-child(1) {
     transform: translateY(-48px);
   }
 
-  #parents-landing-page .video-section .description p {
+  #parents-landing-page .video-section .description p,
+  #kindergarten-landing-page .video-section .description p {
     width: 100%;
     margin-left: 0;
     margin-top: 24px;
   }
-  #parents-landing-page .video-section .video-container {
+  #parents-landing-page .video-section .video-container,
+  #kindergarten-landing-page .video-section .video-container {
     border-radius: 16px;
   }
-  #parents-landing-page .mid-page-cta {
+  #parents-landing-page .mid-page-cta,
+  #kindergarten-landing-page .mid-page-cta {
     padding: 48px 0;
     margin-bottom: 0;
   }
 
-  #parents-landing-page .our-promise {
+  #parents-landing-page .our-promise,
+  #kindergarten-landing-page .our-promise {
     margin-bottom: 100px;
   }
-  #parents-landing-page .bottom-page-cta {
+  #parents-landing-page .bottom-page-cta,
+  #kindergarten-landing-page .bottom-page-cta {
     margin-bottom: 120px;
   }
-  #parents-landing-page .bottom-page-cta .cta-box {
+  #parents-landing-page .bottom-page-cta .cta-box,
+  #kindergarten-landing-page .bottom-page-cta .cta-box {
     padding: 60px 40px;
   }
 
 
-  #parents-landing-page footer{
+  #parents-landing-page footer,
+  #kindergarten-landing-page footer {
     background-color: var(--orange);
     color: #FFF;
   }
-  #parents-landing-page footer svg{
+  #parents-landing-page footer svg,
+  #kindergarten-landing-page footer svg {
     color: #FFF;
   }
 

@@ -22,118 +22,125 @@ export function pricingFields() {
       label: "Meta Title",
     },
     {
-      type: "string",
-      name: "cover_title",
-      label: "Page Title",
-    },
-    {
-      type: "image",
-      name: "cover_image",
-      label: "Cover Image",
-    },
-    {
       type: "object",
-      name: "monthly_card",
-      label: "Monthly Card",
+      name: "pricing_section",
+      label: "Pricing Section",
       fields: [
         {
           type: "string",
-          name: "title",
-          label: "Title",
+          name: "section_title",
+          label: "Section Title",
         },
         {
-          type: "string",
-          name: "main_price",
-          label: "Main Price",
-        },
-        {
-          type: "string",
-          name: "second_price",
-          label: "Second Price",
-        },
-        {
-          type: "string",
-          name: "description",
-          label: "Description",
-          ui: {
-            component: "textarea"
-          }
+          type: "image",
+          name: "section_image",
+          label: "Section Image",
         },
         {
           type: "object",
-          name: "features",
-          label: "Features",
-          list: true,
-          ui: {
-            itemProps: (item) => {
-              return { label: `${item?.title}`}
-            },
-          },
+          name: "monthly_card",
+          label: "Monthly Card",
           fields: [
             {
               type: "string",
               name: "title",
               label: "Title",
             },
+            {
+              type: "string",
+              name: "main_price",
+              label: "Main Price",
+            },
+            {
+              type: "string",
+              name: "second_price",
+              label: "Second Price",
+            },
+            {
+              type: "string",
+              name: "description",
+              label: "Description",
+              ui: {
+                component: "textarea"
+              }
+            },
+            {
+              type: "object",
+              name: "features",
+              label: "Features",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: `${item?.title}`}
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  name: "title",
+                  label: "Title",
+                },
+              ]
+            },
+            {
+              type: "string",
+              name: "button_text",
+              label: "Button Text",
+            }
           ]
         },
         {
-          type: "string",
-          name: "button_text",
-          label: "Button Text",
-        }
-      ]
-    },
-    {
-      type: "object",
-      name: "yearly_card",
-      label: "Yearly Card",
-      fields: [
-        {
-          type: "string",
-          name: "title",
-          label: "Title",
-        },
-        {
-          type: "string",
-          name: "main_price",
-          label: "Main Price",
-        },
-        {
-          type: "string",
-          name: "second_price",
-          label: "Second Price",
-        },
-        {
-          type: "string",
-          name: "description",
-          label: "Description",
-          ui: {
-            component: "textarea"
-          }
-        },
-        {
           type: "object",
-          name: "features",
-          label: "Features",
-          list: true,
-          ui: {
-            itemProps: (item) => {
-              return { label: `${item?.title}`}
-            },
-          },
+          name: "yearly_card",
+          label: "Yearly Card",
           fields: [
             {
               type: "string",
               name: "title",
               label: "Title",
             },
+            {
+              type: "string",
+              name: "main_price",
+              label: "Main Price",
+            },
+            {
+              type: "string",
+              name: "second_price",
+              label: "Second Price",
+            },
+            {
+              type: "string",
+              name: "description",
+              label: "Description",
+              ui: {
+                component: "textarea"
+              }
+            },
+            {
+              type: "object",
+              name: "features",
+              label: "Features",
+              list: true,
+              ui: {
+                itemProps: (item) => {
+                  return { label: `${item?.title}`}
+                },
+              },
+              fields: [
+                {
+                  type: "string",
+                  name: "title",
+                  label: "Title",
+                },
+              ]
+            },
+            {
+              type: "string",
+              name: "button_text",
+              label: "Button Text",
+            }
           ]
-        },
-        {
-          type: "string",
-          name: "button_text",
-          label: "Button Text",
         }
       ]
     }

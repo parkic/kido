@@ -4,6 +4,7 @@ import { pricingFields } from "./templates/pricing";
 import { termsFields } from "./templates/terms";
 import { privacyFields } from "./templates/privacy";
 import { parentsLPFields } from "./templates/parentsLP";
+import { kindergartenLPFields } from "./templates/kindergartenLPFields";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -63,6 +64,11 @@ export default defineConfig({
             name: 'parentsLP',
             label: 'Parents Landing Page',
             fields: parentsLPFields()
+          },
+          {
+            name: 'kindergartenLP',
+            label: 'Kindergarten Landing Page',
+            fields: kindergartenLPFields()
           },
         ]
       },
