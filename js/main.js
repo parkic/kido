@@ -119,7 +119,7 @@
           ease: "none",
           scrollTrigger: {
             trigger: wrapper,
-            start: isMobile ? "top 40px" : "top " + (80 + 15 * i),
+            start: isMobile ? "top " + (10 + 15 * i) : "top " + (80 + 15 * i),
             end: `bottom ${valueBoxHeight * 0.8}`,
             endTrigger: ".values",
             scrub: true,

@@ -14,7 +14,7 @@
           <div class="w-full lg:w-1/2 flex flex-col justify-between lg:h-full">
             <div>
               <div class="above-title mb-4 lg:mb-8"> {{ value.above_title }} </div>
-              <h3 class="mb-10 lg:w-3/4"> {{ value.title }} </h3>
+              <h3 class="mb-4 lg:mb-10 lg:w-3/4"> {{ value.title }} </h3>
             </div>
             <div class="image-box">
               <img src="{{value.image}}" alt="{{ value.title }}" class="mx-auto value-box-image">
@@ -22,7 +22,7 @@
           </div>
           <div class="features-container w-full lg:w-1/2">
             {% for feature in value.features %}
-              <div class="feature-box my-5">
+              <div class="feature-box my-3 lg:my-5">
                 <div class="feature-title flex items-center gap-x-2 mb-2">
                   <span class="w-2 h-2 bg-primary rounded-full"></span>
                   <span>{{ feature.title }}</span>

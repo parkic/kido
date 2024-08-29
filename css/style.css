@@ -312,9 +312,6 @@ footer {
   line-height: 19.6px;
   color: #A6A4A4;
 }
-.our-promise .desktop-images {
-  /* max-width: 50%; */
-}
 .our-promise-image-box:nth-child(1) {
   position: absolute;
   transform: translateY(-80px);
@@ -444,6 +441,7 @@ footer {
   position: relative;
   flex: 1;
   border: 2px solid #6B6B6B;
+  overflow: hidden;
 }
 #parents-landing-page .value-box h3 {
   font-size: 40px;
@@ -572,6 +570,9 @@ footer {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .btn-black, .btn-black-secondary {
+    font-size: 16px;
+  }
   h1, h2 {
     font-size: 32px;
   }
@@ -602,10 +603,13 @@ footer {
   }
 
   .action-card {
-    padding: 32px 20px;
+    padding: 32px 16px;
   }
   .action-card:nth-child(2) > .flex {
     flex-direction: row-reverse;
+  }
+  .action-card .action-card-image {
+    max-width: 180px;
   }
   .action-card:nth-child(1) .action-card-image {
     left: -48px;
@@ -623,6 +627,10 @@ footer {
   }
   .action-card .btn-black {
     font-size: 14px;
+    padding: 8px 16px
+  }
+  .care-is-at-our-core-content p {
+    font-size: 16px;
   }
   .peace-of-mind {
     padding-top: 0;
@@ -646,6 +654,7 @@ footer {
   }
   .our-promise-content p {
     margin-bottom: 1rem;
+    font-size: 16px;
   }
 
   .our-promise-image-box:nth-child(1) {
@@ -663,7 +672,7 @@ footer {
     padding-bottom: 120px;
   }
   .bottom-cta-container {
-    padding: 80px 40px;
+    padding: 80px 24px;
   }
 
   footer.container {
@@ -710,13 +719,13 @@ footer {
     padding-bottom: 120px;
   }
   #parents-landing-page .value-box {
-    padding: 32px 24px;
+    padding: 24px;
   }
   #parents-landing-page .value-box h3 {
     font-size: 24px;
   }
   #parents-landing-page .value-box .image-box {
-    height: 180px;
+    height: 160px;
     overflow: hidden;
     background-color: #FFF;
   }
