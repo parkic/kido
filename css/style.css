@@ -770,11 +770,17 @@ footer {
   }
   #parents-landing-page .value-box,
   #kindergarten-landing-page .value-box {
-    padding: 24px;
+    padding: 16px;
+    border-radius: 24px;
+  }
+  #parents-landing-page .value-box .above-title, 
+  #kindergarten-landing-page .value-box .above-title {
+    padding: 6px 16px;
   }
   #parents-landing-page .value-box h3,
   #kindergarten-landing-page .value-box h3 {
     font-size: 24px;
+    line-height: 1.1;
   }
   #parents-landing-page .value-box .image-box,
   #kindergarten-landing-page .value-box .image-box {
@@ -785,7 +791,7 @@ footer {
   #parents-landing-page .value-box .feature-box,
   #kindergarten-landing-page .value-box .feature-box {
     width: 100%;
-    padding: 16px;
+    padding: 10px 16px;
   }
   #parents-landing-page .value-box .feature-description,
   #kindergarten-landing-page .value-box .feature-description {
