@@ -609,6 +609,11 @@ footer {
 
 
 @media (max-width: 1024px) {
+  .btn-black,
+  .btn-black-secondary,
+  .btn-primary  {
+    font-size: 16px;
+  }
   .footer-link img {
     width: 28px;
   }
@@ -636,7 +641,16 @@ footer {
     margin-top: 60px;
   }
   .feature-card {
-    padding: 24px 16px 160px;
+    padding: 24px 16px 220px;
+  }
+  .feature-card h4 {
+    font-size: 24px;
+  }
+  .feature-card .feature-description {
+    font-size: 16px;
+  }
+  .feature-card .feature-card-image {
+    height: 200px;
   }
   .feature-card h4 {
     height: 40px;
@@ -823,6 +837,10 @@ footer {
   #kindergarten-landing-page .video-section .video-container {
     border-radius: 16px;
   }
+  #parents-landing-page .video-section .video-button, 
+  #kindergarten-landing-page .video-section .video-button {
+    font-size: 14px;
+  }
   #parents-landing-page .mid-page-cta,
   #kindergarten-landing-page .mid-page-cta {
     padding: 48px 0;
@@ -839,7 +857,7 @@ footer {
   }
   #parents-landing-page .bottom-page-cta .cta-box,
   #kindergarten-landing-page .bottom-page-cta .cta-box {
-    padding: 60px 40px;
+    padding: 60px 32px;
   }
 
 
