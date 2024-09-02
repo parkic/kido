@@ -3,6 +3,19 @@ permalink: /kindergarten-landing-page/
 layout: kindergartenLP
 title: Kindergarten Landing Page
 page_title: Kindergarten Landing Page
+hero_section:
+  hero_image: /./assets/images/kindergarten cover.png
+  cover_title: |
+    Better 
+
+    Conversations 
+
+    with Kido
+  subtitle: Kido is an app designed for kindergartens that put kids first
+  reviews_image: /./assets/images/Avatargroup.png
+  reviews_text: >-
+    Lorem ipsum dolor sit amet consectetur. Ultrices massa at dictum feugiat
+    dui.
 values_section:
   title: |
     Everything a modern kindergarten needs and nothing more.

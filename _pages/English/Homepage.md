@@ -1,9 +1,20 @@
 ---
 permalink: //
-cover_image: ''
-cover_title: Better Conversations <br> with Kido Cloud
 layout: index
 title: Homepage
+hero_section:
+  hero_image: /./assets/images/homepage cover.png
+  cover_title: |
+    Better 
+
+    Conversations 
+
+    with Kido 
+  subtitle: Kido is an app designed for kindergartens that put kids first
+  reviews_image: /./assets/images/Avatargroup.png
+  reviews_text: >-
+    Lorem ipsum dolor sit amet consectetur. Ultrices massa at dictum feugiat
+    dui.
 features:
   - icon: /assets/icons/card-icon-1.svg
     title: School info Management
@@ -133,13 +144,13 @@ care_is_at_our_core:
     - image: /assets/images/care_is_at_our_core-2.png
     - image: /assets/images/care_is_at_our_core-3.png
 peace_of_mind:
+  image: /./assets/images/Mockupa 2.png
   title: 'Peace of Mind, Built-In'
   description: >
     “Kido isn’t just a tool; it’s a secure, comforting space where conversations
     happen freely, and children’s safety is never a question. From secure data
     handling to a seamless user experience, Kido offers a sense of calm and
     trust.”
-  image: /assets/images/Mockupa 2.png
 our_promise:
   above_title: OUR PROMISE
   title: A commitment to putting kids first

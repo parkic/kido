@@ -3,9 +3,22 @@ permalink: /parents-landing-page/
 layout: parentsLP
 title: Parents Landing Page
 page_title: Parents Landing Page
+hero_section:
+  hero_image: /./assets/images/parents cover.png
+  cover_title: |
+    Better 
+
+    Conversations 
+
+    with Kido
+  subtitle: Kido is an app designed for kindergartens that put kids first
+  reviews_image: /./assets/images/Avatargroup.png
+  reviews_text: >-
+    Lorem ipsum dolor sit amet consectetur. Ultrices massa at dictum feugiat
+    dui.
 values_section:
   title: |
-    The best way to watch them grow is with your own eyes. 
+    The best way to watch them grow is with your own eyes.
 
     This is the next best way.
   description: >

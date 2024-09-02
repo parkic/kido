@@ -23,6 +23,39 @@ export function homepageFields() {
     },
     {
       type: "object",
+      name: "hero_section",
+      label: "Hero Section",
+      fields: [
+        {
+          type: "image",
+          name: "hero_image",
+          label: "Hero Image",
+        },
+        {
+          type: "rich-text",
+          name: "cover_title",
+          label: "Title",
+        },
+        {
+          type: "string",
+          name: "subtitle",
+          label: "Subtitle",
+        },
+        {
+          type: "image",
+          name: 'reviews_image',
+          label: 'Reviews Image'
+        },
+        {
+          type: "string",
+          name: 'reviews_text',
+          label: 'Reviews Text'
+        },
+       
+      ]
+    },
+    {
+      type: "object",
       name: "features",
       label: "Features",
       list: true,
@@ -183,6 +216,11 @@ export function homepageFields() {
       name: "peace_of_mind",
       label: "Peace of Mind",
       fields: [
+        {
+          type: "image",
+          name: "image",
+          label: "Image",
+        },
         {
           type: "string",
           name: "title",
