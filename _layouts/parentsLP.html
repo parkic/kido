@@ -4,29 +4,7 @@
 {% include nav.html %}
 
 <main>
-  <section class="cover-section">
-    <div class="container mx-auto h-full">
-      <div class="flex flex-col lg:justify-between h-full">
-        <div class="cover-content">
-          <div>
-            <h1 class="pt-10 mb-8">{{ page.hero_section.cover_title | markdownify }}</h1>
-            <div class="cover-subtitle">
-              {{ page.hero_section.subtitle | markdownify }}
-            </div>
-          </div>
-        </div>
-        <div class="hidden lg:block">
-          <img src="{{ page.hero_section.reviews_image }}" alt="reviews images" class="mb-4">
-          <div class="cover-subtitle">
-            {{ page.hero_section.reviews_text | markdownify }}
-          </div>
-        </div>
-        <div class="cover-section-image">
-          <img src="{{page.hero_section.hero_image}}" alt="{{page.hero_section.cover_title}}">
-        </div>
-      </div>
-    </div>
-  </section>
+  {% include hero-section.html %}
 
   {% include landing-page-values.html %}
 
