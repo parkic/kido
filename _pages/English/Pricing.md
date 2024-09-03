@@ -19,7 +19,6 @@ pricing_section:
       - title: Photo library
       - title: Report and stats system
       - title: Support system
-      - title: Support system
       - title: School year page history
     button_text: Subscribe
   yearly_card:
@@ -35,7 +34,6 @@ pricing_section:
       - title: Unlimited users
       - title: Photo library
       - title: Report and stats system
-      - title: Support system
       - title: Support system
       - title: School year page history
     button_text: Subscribe

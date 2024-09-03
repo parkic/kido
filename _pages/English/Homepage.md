@@ -5,11 +5,11 @@ title: Homepage
 hero_section:
   hero_image: /./assets/images/homepage cover.png
   cover_title: |
-    Better 
+    Better
 
-    Conversations 
+    Conversations
 
-    with Kido 
+    with Kido
   subtitle: Kido is an app designed for kindergartens that put kids first
   reviews_image: /./assets/images/Avatargroup.png
   reviews_text: >-
@@ -47,13 +47,13 @@ features:
     description: >-
       Keep all critical information about your child, from allergies to
       emergency contacts, easily accessible
-    image: ''
+    image: /./assets/images/child-profile.png
   - icon: /assets/icons/card-icon-7.svg
     title: Meal Planning
     description: >-
       Plan and share weekly meal menus, ensuring all dietary needs and
       preferences are met
-    image: ''
+    image: /./assets/images/meal-planing.png
   - icon: /assets/icons/card-icon-8.svg
     title: Progress Reports
     description: >-
@@ -83,13 +83,13 @@ features:
     description: >-
       Capture and share memorable moments with a secure gallery that parents can
       access anytime
-    image: ''
+    image: /./assets/images/photo-galleries.png
   - icon: /assets/icons/card-icon-13.svg
     title: Driver Tracking
     description: >-
       Monitor the school bus in real-time to ensure safe and timely pick-ups and
       drop-offs
-    image: ''
+    image: /./assets/images/driver-tracking.png
   - icon: /assets/icons/card-icon-14.svg
     title: Customer Support
     description: Access prompt and friendly customer support whenever you need assistance
@@ -113,14 +113,14 @@ action_cards:
       focus on what truly matters—nurturing young minds.
     image: /assets/images/action-card-1.png
     button_text: Try school admin demo
-    button_url: '#'
+    button_url: /contact
   - title: Are you a parent?
     description: >-
       Discover how Kido keeps you connected to your child’s day-to-day
       experiences, fostering a deeper bond and understanding.
     image: /assets/images/action-card-2.png
     button_text: Try parent demo
-    button_url: '#'
+    button_url: /contact
 care_is_at_our_core:
   title: Care is at our Core
   description: >
@@ -172,7 +172,7 @@ our_promise:
 bottom_cta:
   title: Ready to start Having Better Conversations at your Kindergarten?
   button_text: Book a free demo call now
-  button_url: '#'
+  button_url: /contact
 _template: homepage
 ---
 

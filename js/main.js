@@ -1,4 +1,18 @@
 (function () {
+  if(document.querySelector('header')) {
+    document.addEventListener("scroll", function() {
+      const header = document.querySelector("header");
+      const scrollThreshold = window.innerHeight * 0.2; // 20vh
+    
+      if (window.scrollY > scrollThreshold) {
+        header.classList.add("shrink");
+      } else {
+        header.classList.remove("shrink");
+      }
+    });
+    
+  }
+  
   if (document.querySelector('.scroll-wrapper')) {
     const wrapper = document.querySelector('.scroll-wrapper')
     const cards = gsap.utils.toArray('.scroll-wrapper .feature-card')

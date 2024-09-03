@@ -143,6 +143,20 @@ header {
   right: 0;
   z-index: 1000;
   width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+header .upper-banner,
+header.shrink nav  {
+  transition: all 0.3s ease-in-out;
+}
+header.shrink {
+  background-color: #FFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-44px);
+}
+header.shrink nav {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .header-logo {
