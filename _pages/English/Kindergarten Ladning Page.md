@@ -127,7 +127,7 @@ mid_page_cta:
     We’re confident that once you see Kido in action, you’ll realize how much it
     can help your business thrive.
   button_text: Book a free demo call now
-  button_url: '#'
+  button_url: /contact
 features_section:
   title: |
     Managing a kindergarten can be tough
@@ -213,7 +213,7 @@ bottom_cta:
     Book a free demonstration in English, Greek, or Serbian, and ask all your
     questions.
   button_text: Book a free demo call now
-  button_url: '#'
+  button_url: /contact
 _template: kindergartenLP
 ---
 

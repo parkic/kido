@@ -6,9 +6,9 @@ page_title: Parents Landing Page
 hero_section:
   hero_image: /./assets/images/parents cover.png
   cover_title: |
-    Better 
+    Better
 
-    Conversations 
+    Conversations
 
     with Kido
   subtitle: Kido is an app designed for kindergartens that put kids first
@@ -165,7 +165,7 @@ mid_page_cta:
     Contact us today, and we’ll reach out to your child’s school to make it
     happen.
   button_text: Book a free demo call now
-  button_url: '#'
+  button_url: /contact
 our_promise:
   above_title: OUR PROMISE
   title: A commitment to putting kids first
@@ -189,7 +189,7 @@ bottom_cta:
     Contact us today, and we’ll reach out to your child’s school to make it
     happen.
   button_text: Book a free demo call now
-  button_url: '#'
+  button_url: /contact
 _template: parentsLP
 ---
 
