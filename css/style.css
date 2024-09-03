@@ -361,6 +361,9 @@ footer {
 #pricing {
   background-color: var(--background-color);
 }
+main#pricing {
+  padding-top: 140px;
+}
 .pricing-cards-container {
   transform: translateX(120px);
 }
@@ -403,6 +406,10 @@ footer {
   color: var(--black);
 }
 
+#privacy-policy main, 
+#terms main {
+  padding-top: 140px;
+}
 #privacy-policy p, 
 #terms p {
  margin-bottom: 12px;
@@ -635,6 +642,10 @@ footer {
 }
 
 
+.calendly-inline-widget {
+  min-width: 1200px;
+}
+
 @media (max-width: 1024px) {
   .btn-black,
   .btn-black-secondary,
@@ -643,6 +654,10 @@ footer {
   }
   .footer-link img {
     width: 28px;
+  }
+  .calendly-inline-widget {
+    min-width: auto;
+    width: 100%;
   }
 }
 

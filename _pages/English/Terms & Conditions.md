@@ -1,5 +1,5 @@
 ---
-permalink: /terms-and-conditions/
+permalink: /terms-&-conditions/
 layout: terms
 title: Terms & Conditions
 page_title: Simple Affordable Pricing
