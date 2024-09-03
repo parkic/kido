@@ -1,19 +1,23 @@
-<section class="video-section">
-  <div class="container mx-auto">
-    <div class="flex flex-col lg:flex-row gap-x-20 mb-16">
-      <div class="w-full lg:w-1/2">
-        <h2 class="w-full lg:w-4/5">{{ page.video_section.title }}</h2>
+{% if page.video_section.video_url %}
+  <section class="video-section">
+    <div class="container mx-auto">
+      <div class="flex flex-col lg:flex-row gap-x-20 mb-16">
+        <div class="w-full lg:w-1/2">
+          <h2 class="w-full lg:w-4/5">{{ page.video_section.title }}</h2>
+        </div>
+        <div class="description w-full lg:w-1/2">
+          {{ page.video_section.description | markdownify }}
+        </div>
       </div>
-      <div class="description w-full lg:w-1/2">
-        {{ page.video_section.description | markdownify }}
-      </div>
-    </div>
-    <div class="video-wrapper w-full lg:w-4/5 mx-auto">
-      <div class="video-container">
-        <div class="video-button w-24 lg:w-32 h-24 lg:h-32 rounded-full">
-          {{ page.video_section.video_button }}
+      <div class="video-wrapper w-full lg:w-4/5 mx-auto">
+        <div class="video-container">
+          <!-- <div class="video-button w-24 lg:w-32 h-24 lg:h-32 rounded-full">
+            {{ page.video_section.video_button }}
+          </div> -->
+
+          <iframe width="100%" height="100%" src="{{ page.video_section.video_url }}" title="{{ page.video_section.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+{% endif %}

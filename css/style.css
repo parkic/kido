@@ -585,9 +585,17 @@ main#pricing {
   padding-top: 25px;
   height: 0;
   
-  border-radius: 64px;
+  border-radius: 40px;
   background-color: #DFDFDF;
   overflow: hidden;
+}
+#parents-landing-page .video-section .video-container iframe,
+#kindergarten-landing-page .video-section .video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 #parents-landing-page .video-section .video-button,
 #kindergarten-landing-page .video-section .video-button {
@@ -638,9 +646,17 @@ main#pricing {
   background-color: var(--orange);
   color: #FFF;
 }
+#parents-landing-page footer .footer-nav-link:hover,
+#kindergarten-landing-page footer .footer-nav-link:hover {
+  color: var(--black);
+}
 #parents-landing-page footer svg,
 #kindergarten-landing-page footer svg {
   color: #FFF;
+}
+#parents-landing-page footer .footer-nav-link a:hover svg,
+#kindergarten-landing-page footer .footer-nav-link a:hover svg{
+  color: var(--black);
 }
 
 #kindergarten-landing-page .our-promise p{

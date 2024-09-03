@@ -6,9 +6,9 @@ page_title: Kindergarten Landing Page
 hero_section:
   hero_image: /./assets/images/kindergarten cover.png
   cover_title: |
-    Better 
+    Better
 
-    Conversations 
+    Conversations
 
     with Kido
   subtitle: Kido is an app designed for kindergartens that put kids first
@@ -103,7 +103,6 @@ pricing_section:
       - title: Photo library
       - title: Report and stats system
       - title: Support system
-      - title: Support system
       - title: School year page history
     button_text: Subscribe
   yearly_card:
@@ -119,7 +118,6 @@ pricing_section:
       - title: Unlimited users
       - title: Photo library
       - title: Report and stats system
-      - title: Support system
       - title: Support system
       - title: School year page history
     button_text: Subscribe
@@ -208,7 +206,7 @@ video_section:
     sure how they can really help?
 
     Check out our short explainer video and clear all doubts:
-  video_url: '#'
+  video_url: 'https://www.youtube.com/embed/DTRKSKVFf2I?si=dG_QzvDG9GGS0rOF'
   video_button: Watch Now
 bottom_cta:
   content: >
