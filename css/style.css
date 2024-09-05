@@ -379,7 +379,9 @@ main#pricing {
   padding-top: 140px;
 }
 .pricing-cards-container {
-  transform: translateX(120px);
+  position: relative;
+  z-index: 10;
+  /* transform: translateX(120px); */
 }
 .pricing-card {
   width: 400px;
