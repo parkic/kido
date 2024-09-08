@@ -1,16 +1,15 @@
-Paddle.Environment.set("sandbox")
 Paddle.Initialize({
-  token: 'test_96406623aa9a0b2af2a768b393f',
+  token: 'live_6737cab42996802977e7026ba22',
   pwCustomer: { }
 })
 
 const subscriptionPlans = {
   monthly: {
-    priceId: 'pri_01j3yykrygkmh960wqmqz3p1nn',
+    priceId: 'pri_01j5njtaj7nxpymat4jhh0fbny',
     quantity: 1
   },
   yearly :{  
-    priceId: 'pri_01j3yyqbqs9ncga4awv4v3cf5s',
+    priceId: 'pri_01j5njqca8kkfvrgms650zyh3h',
     quantity: 1
   }
 }
