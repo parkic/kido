@@ -711,6 +711,14 @@ main#pricing {
     font-size: 20px;
   }
 
+  header.shrink {
+    transform: translateY(0);
+  }
+  header.shrink nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .cover-section h1 {
     margin-top: 0px;
     padding-top: 0;
@@ -777,7 +785,7 @@ main#pricing {
   }
   .action-card .btn-black {
     font-size: 14px;
-    padding: 8px 16px
+    padding: 8px 12px
   }
   .care-is-at-our-core-content p {
     font-size: 16px;
@@ -797,6 +805,13 @@ main#pricing {
   }
   .peace-of-mind-text p {
     font-size: 16px;
+  }
+  .care-is-at-our-core-card {
+    grid-column-gap: 0.5rem;
+    column-gap: 0.5rem;
+  }
+  .care-is-at-our-core-card-content {
+    width: calc(100% - 37px);
   }
 
   .our-promise {
@@ -863,6 +878,11 @@ main#pricing {
   }
   .pricing-card .feature {
     font-size: 14px;
+  }
+  .care-is-at-our-core-card-icon, 
+  .care-is-at-our-core-card-icon img {
+    width: 32px;
+    height: 32px;
   }
 
   #parents-landing-page .values-section,
