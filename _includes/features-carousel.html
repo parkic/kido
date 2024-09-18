@@ -1,8 +1,12 @@
-<div class="scroll-wrapper pt-32">
-  <div class="scroll-container flex gap-x-6 pt-4 pb-40 px-10">
+<div class="swiper feature-card-swiper pt-32 mb-40">
+  <div class="relative">
+
+  </div>
+  <div class="swiper-wrapper flex pt-4 px-10">
     {% if page.layout == 'parentsLP' or page.layout == 'kindergartenLP' %}
       {% for feature in page.features_section.features %}
-        <div class="feature-card relative flex flex-col gap-y-5 pb-40">
+      <div class="swiper-slide">
+        <div class="feature-card-swiper feature-card relative flex flex-col gap-y-5 pb-40">
           <div class="feature-card-icon">
             <img src="{{ feature.icon }}" alt="{{ feature.title }}-icon"> 
           </div>
@@ -16,25 +20,47 @@
             </div>
           {% endif %}
         </div>
+      </div>
       {% endfor %}
     {% else %}
       {% for feature in page.features %}
-        <div class="feature-card relative flex flex-col gap-y-5 pb-40">
-          <div class="feature-card-icon">
-            <img src="{{ feature.icon }}" alt="{{ feature.title }}-icon"> 
-          </div>
-          <div class="mb-6">
-            <h4 class="mb-2 anim">{{ feature.title }}</h4>
-            <p class="feature-description">{{ feature.description }}</p>
-          </div>
-          {% if feature.image and feature.image != '' %}
-            <div class="feature-card-image absolute bottom-0">
-              <img src="{{ feature.image }}" alt="{{ feature.title }}">
+        <div class="swiper-slide">
+          <div class="feature-card-swiper feature-card relative flex flex-col gap-y-5 pb-40">
+            <div class="feature-card-icon">
+              <img src="{{ feature.icon }}" alt="{{ feature.title }}-icon"> 
             </div>
-          {% endif %}
+            <div class="mb-6">
+              <h4 class="mb-2 anim">{{ feature.title }}</h4>
+              <p class="feature-description">{{ feature.description }}</p>
+            </div>
+            {% if feature.image and feature.image != '' %}
+              <div class="feature-card-image absolute bottom-0">
+                <img src="{{ feature.image }}" alt="{{ feature.title }}">
+              </div>
+            {% endif %}
+          </div>
         </div>
       {% endfor %}
+
+
     {% endif %}
      
   </div>
+
+    <div class="w-full absolute h-12 mt-10 flex items-center justify-end pr-16 pb-16 z-10" style="top: 50%;">
+      <div class="swiper-button-prev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#fff" viewBox="0 0 256 256">
+          <rect width="256" height="256" fill="none"></rect>
+          <line x1="216" y1="176" x2="216" y2="80" fill="none" stroke="#fff" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="16"></line>
+        </svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#fff" viewBox="0 0 256 256">
+          <rect width="256" height="256" fill="none"></rect>
+          <line x1="40" y1="176" x2="40" y2="80" fill="none" stroke="#fff" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="16"></line>
+        </svg>
+      </div>
+    </div>
 </div>

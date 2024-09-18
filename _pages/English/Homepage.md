@@ -112,14 +112,14 @@ action_cards:
       Learn how Kido simplifies communication and operations, allowing you to
       focus on what truly matters—nurturing young minds.
     image: /assets/images/action-card-1.png
-    button_text: Try school admin demo
+    button_text: Schedule a demo
     button_url: /contact
   - title: Are you a parent?
     description: >-
       Discover how Kido keeps you connected to your child’s day-to-day
       experiences, fostering a deeper bond and understanding.
     image: /assets/images/action-card-2.png
-    button_text: Try parent demo
+    button_text: Schedule a demo
     button_url: /contact
 care_is_at_our_core:
   title: Care is at our Core

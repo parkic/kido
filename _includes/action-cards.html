@@ -7,9 +7,11 @@
             <div class="w-2/5">
               <img class="action-card-image" src="{{ card.image }}" alt="{{ card.title }}">
             </div>
-            <div class="w-3/5 flex flex-col justify-center">
-              <h3 class="mb-2">{{ card.title }}</h3>
-              <p class="text-sm mb-8">{{ card.description }}</p>
+            <div class="w-3/5 flex flex-col justify-between">
+              <div>
+                <h3 class="mb-2">{{ card.title }}</h3>
+                <p class="text-sm mb-8">{{ card.description }}</p>
+              </div>
               <div>
                 <a href="{{ card.button_url }}" class="btn-black flex gap-x-2 items-center font-semibold inline-flex">
                   {{ card.button_text }}

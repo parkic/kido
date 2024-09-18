@@ -10,31 +10,12 @@
         header.classList.remove("shrink");
       }
     });
-    
-  }
-  
-  if (document.querySelector('.scroll-wrapper')) {
-    const wrapper = document.querySelector('.scroll-wrapper')
-    const cards = gsap.utils.toArray('.scroll-wrapper .feature-card')
-    const totalWidth = cards.reduce((acc, card) => acc + card.offsetWidth + 36, 0)
-
-    const scrollSpeedFactor = 1
-    
-    gsap.to('.scroll-container', {
-      x: -totalWidth + window.innerWidth,
-      ease: 'none',
-      scrollTrigger: {
-        trigger: '.scroll-wrapper',
-        pin: true,
-        scrub: 1,
-        end: () => `+=${(totalWidth) * scrollSpeedFactor}`
-      },
-    })
   }
 
 // Parents Landing Page
   if (document.querySelector('#parents-landing-page .values-section') || document.querySelector('#kindergarten-landing-page .values-section')) {
 
+    console.log('test')
     // Value boxes Above Title
     document.addEventListener('DOMContentLoaded', () => {
       const valueBoxes = document.querySelectorAll("#parents-landing-page .value-box, #kindergarten-landing-page .value-box")
@@ -149,6 +130,56 @@
   }
 
   
+  if (document.querySelector('.feature-card-swiper')) {
+    const autoplaySpeed = 2000
+
+    let featureCardSwiper = new Swiper(".feature-card-swiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: autoplaySpeed,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1, 
+        },
+        600: {
+          slidesPerView: 1.6, 
+        },
+        740: {
+          slidesPerView: 2, 
+        },
+        860: {
+          slidesPerView: 2.3, 
+        },
+        1024: {
+          slidesPerView: 2.7, 
+        },
+        1200: {
+          slidesPerView: 3.2, 
+        },
+        1366: {
+          slidesPerView: 3.6, 
+        },
+        1600: {
+          slidesPerView: 4.2, 
+        },
+        1801: {
+          slidesPerView: 4.7, 
+        }
+      },
+    })
+  }
 
 
 })()

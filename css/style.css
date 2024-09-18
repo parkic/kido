@@ -152,7 +152,7 @@ header.shrink nav  {
 header.shrink {
   background-color: #FFF;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transform: translateY(-44px);
+  /* transform: translateY(-44px); */
 }
 header.shrink nav {
   padding-top: 1.5rem;
@@ -162,6 +162,12 @@ header.shrink nav {
 .header-logo {
   width: 98px;
   height: 53px;
+}
+.header-nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  transition: all 0.3s ease-in-out;
 }
 footer {
   background-color: #FFF;
@@ -179,13 +185,16 @@ footer {
   margin-bottom: 16px;
   transition: all 0.3s ease-in-out;
 }
-.footer-nav-link:hover {
+.footer-nav-link:hover,
+.header-nav-link:hover {
   color: var(--orange);
 }
-.footer-nav-link a svg{
+.footer-nav-link a svg,
+.header-nav-link a svg {
   transition: all 0.3s ease-in-out;
 }
-.footer-nav-link a:hover svg{
+.footer-nav-link a:hover svg,
+.header-nav-link a:hover svg {
   color: var(--orange);
 }
 
@@ -214,9 +223,9 @@ footer {
   width: 360px;
 }
 
-.scroll-wrapper {
-  position: relative;
-  overflow: hidden;
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--orange);
 }
 .feature-card {
   background-color: var(--background-color);
@@ -277,6 +286,9 @@ footer {
 .action-card-image {
   position: absolute;
   bottom: 0;
+}
+.action-card p {
+  min-height: 63px;
 }
 
 .care-is-at-our-core {
@@ -568,8 +580,7 @@ main#pricing {
 
 #parents-landing-page .video-section,
 #kindergarten-landing-page .video-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 200px;
 }
 #parents-landing-page .video-section .description p,
 #kindergarten-landing-page .video-section .description p {
@@ -672,7 +683,9 @@ main#pricing {
   padding-bottom: 80px;
   background-color: var(--background-color);
 }
-
+#kindergarten-landing-page .bottom-page-cta {
+  margin-top: 150px; 
+}
 
 .calendly-inline-widget {
   min-width: 1200px;
