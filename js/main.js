@@ -1,4 +1,6 @@
 (function () {
+  const isMobile = window.innerWidth < 768;
+
   if(document.querySelector('header')) {
     document.addEventListener("scroll", function() {
       const header = document.querySelector("header");
@@ -66,7 +68,6 @@
     const valueBoxes = gsap.utils.toArray(".value-box")
     const valueBox = document.querySelector(".value-box")
     const valueBoxHeight = valueBox ? valueBox.offsetHeight : 300
-    const isMobile = window.innerWidth < 768;
     let maxHeight = 0
 
     valueBoxes.forEach(box => {
@@ -131,12 +132,13 @@
 
   
   if (document.querySelector('.feature-card-swiper')) {
-    const autoplaySpeed = 2000
+    const autoplaySpeed = 20000
 
     let featureCardSwiper = new Swiper(".feature-card-swiper", {
       slidesPerView: 'auto',
-      spaceBetween: 20,
+      spaceBetween: isMobile ? 10 : 20,
       loop: true,
+      centeredSlides: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
