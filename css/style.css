@@ -723,7 +723,12 @@ main#pricing {
   h4 {
     font-size: 20px;
   }
-
+  .cover-section {
+    padding-top: 90px;
+  }
+  .cover-section {
+    min-height: 746px;
+  }
   header.shrink {
     transform: translateY(0);
   }
