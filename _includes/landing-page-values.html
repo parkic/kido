@@ -10,8 +10,8 @@
     <div class="values relative">
       {% for value in page.values_section.values %}
       <div class="value-wrapper">
-        <div class="value-box flex flex-col lg:flex-row items-center gap-x-12">
-          <div class="w-full lg:w-1/2 flex flex-col justify-between lg:h-full">
+        <div class="value-box flex flex-col md:flex-row items-center gap-x-12">
+          <div class="w-full md::w-1/2 flex flex-col justify-between lg:h-full">
             <div>
               <div class="above-title mb-4 lg:mb-8"> {{ value.above_title }} </div>
               <h3 class="mb-3 lg:mb-10 lg:w-3/4"> {{ value.title }} </h3>
@@ -20,7 +20,7 @@
               <img src="{{value.image}}" alt="{{ value.title }}" class="mx-auto value-box-image">
             </div>
           </div>
-          <div class="features-container w-full lg:w-1/2">
+          <div class="features-container w-full md::w-1/2">
             {% for feature in value.features %}
               <div class="feature-box my-3 lg:my-5">
                 <div class="feature-title flex items-center gap-x-2 mb-2">

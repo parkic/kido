@@ -691,6 +691,87 @@ main#pricing {
   min-width: 1200px;
 }
 
+@media (min-width: 1536px) and (max-width: 1800px) {
+  .desktop-images {
+    max-width: 60%;
+    top: 120px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1536px) {
+  .desktop-images {
+    max-width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .our-promise-image-box:nth-child(1) {
+    transform: translate(80px,-80px);
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .our-promise {
+    padding-top: 120px;
+  }
+  .desktop-images {
+    max-width: 55%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .desktop-images .our-promise-image-box:nth-child(1) {
+    width: 80%;
+  }
+  #parents-landing-page .our-promise {
+    margin-bottom: 160px;
+  }
+  #kindergarten-landing-page .values-section {
+    margin-bottom: 120px;
+  }
+  #parents-landing-page .mid-page-cta {
+    margin-bottom: 120px;
+  }
+  #kindergarten-landing-page .pricing-section img{
+    display: none;
+  }
+
+  .action-card {
+    z-index: -2;
+    padding-left: 4px;
+  }
+  .action-card > .flex {
+    justify-content: space-between;
+  }
+  .action-card .custom-50 {
+    width: 50%;
+  }
+  .action-card-image {
+    z-index: -1;
+  }
+  .action-card-image img {
+    left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cover-section-image {
+    height: auto;
+    width: 50%;
+  }
+  .first-cta-box-image {
+    display: none;
+  }
+  .our-promise {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  #parents-landing-page .value-box, #kindergarten-landing-page .value-box {
+    padding: 20px 40px;
+  }
+  #kindergarten-landing-page .values-section {
+    margin-bottom: 40px;
+  }
+}
+
 @media (max-width: 1024px) {
   .btn-black,
   .btn-black-secondary,
