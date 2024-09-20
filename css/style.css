@@ -691,6 +691,14 @@ main#pricing {
   min-width: 1200px;
 }
 
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+.swiper-slide-active .feature-card {
+  border: 2px solid #A6A4A4;
+}
+
 @media (min-width: 1536px) and (max-width: 1800px) {
   .desktop-images {
     max-width: 60%;

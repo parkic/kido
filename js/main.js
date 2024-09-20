@@ -135,13 +135,26 @@
     const autoplaySpeed = 20000
 
     let featureCardSwiper = new Swiper(".feature-card-swiper", {
-      slidesPerView: 'auto',
-      spaceBetween: isMobile ? 10 : 20,
+      // slidesPerView: 'auto',
+      // spaceBetween: isMobile ? 10 : 20,
+      // loop: true,
+      // centeredSlides: true,
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   clickable: true,
+      // },
+      effect: "coverflow",
+      grabCursor: true,
       loop: true,
       centeredSlides: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        scale: 1.03,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
       },
       autoplay: {
         delay: autoplaySpeed,
