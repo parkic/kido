@@ -21,79 +21,79 @@ features:
     description: >-
       Easily update and manage all essential kindergarten details in one secure
       place
-    image: /assets/images/card-image-1.png
+    image: /assets/images/card-image-1.svg
   - icon: /assets/icons/card-icon-2.svg
     title: Reports Management
     description: >-
       Streamline the creation and access of daily reports to keep parents and
       staff informed
-    image: /assets/images/card-image-2.png
+    image: /assets/images/card-image-2.svg
   - icon: /assets/icons/card-icon-3.svg
     title: Classroom Management
     description: >-
       Organize and maintain classroom details, assignments, and activities with
       ease
-    image: /assets/images/card-image-3.png
+    image: /assets/images/card-image-3.svg
   - icon: /assets/icons/card-icon-4.svg
     title: Teacher Management
     description: 'Manage teacher profiles, assignments, and roles within your kindergarten'
-    image: /assets/images/card-image-4.png
+    image: /assets/images/card-image-4.svg
   - icon: /assets/icons/card-icon-5.svg
     title: Staff Management
     description: Centralize and simplify the management of all staff information and roles
-    image: /assets/images/card-image-5.png
+    image: /assets/images/card-image-5.svg
   - icon: /assets/icons/card-icon-6.svg
     title: Child Profile
     description: >-
       Keep all critical information about your child, from allergies to
       emergency contacts, easily accessible
-    image: /./assets/images/child-profile.png
+    image: /./assets/images/card-image-6.svg
   - icon: /assets/icons/card-icon-7.svg
     title: Meal Planning
     description: >-
       Plan and share weekly meal menus, ensuring all dietary needs and
       preferences are met
-    image: /./assets/images/meal-planing.png
+    image: /./assets/images/card-image-7.svg
   - icon: /assets/icons/card-icon-8.svg
     title: Progress Reports
     description: >-
       Track and share a child’s daily progress, including achievements and areas
       for improvement
-    image: /assets/images/card-image-8.png
+    image: /assets/images/card-image-8.svg
   - icon: /assets/icons/card-icon-9.svg
     title: Announcements
     description: >-
       Share important updates and announcements with parents and staff in a
       single, unified platform
-    image: /assets/images/card-image-9.png
+    image: /assets/images/card-image-9.svg
   - icon: /assets/icons/card-icon-10.svg
     title: Notifications
     description: >-
       Stay updated with real-time alerts about daily activities, important
       events, and emergencies
-    image: /assets/images/card-image-10.png
+    image: /assets/images/card-image-10.svg
   - icon: /assets/icons/card-icon-11.svg
     title: Messaging
     description: >-
       Simplify communication with direct, secure messaging between parents,
       teachers, and admins
-    image: /assets/images/card-image-11.png
+    image: /assets/images/card-image-11.svg
   - icon: /assets/icons/card-icon-12.svg
     title: Photo Galleries
     description: >-
       Capture and share memorable moments with a secure gallery that parents can
       access anytime
-    image: /./assets/images/photo-galleries.png
+    image: /./assets/images/card-image-12.svg
   - icon: /assets/icons/card-icon-13.svg
     title: Driver Tracking
     description: >-
       Monitor the school bus in real-time to ensure safe and timely pick-ups and
       drop-offs
-    image: /./assets/images/driver-tracking.png
+    image: /./assets/images/card-image-13.svg
   - icon: /assets/icons/card-icon-14.svg
     title: Customer Support
     description: Access prompt and friendly customer support whenever you need assistance
-    image: /assets/images/card-image-14.png
+    image: /assets/images/card-image-14.svg
 section_below_cards:
   title: Why good <br> Conversations matter?
   description: >
@@ -111,14 +111,14 @@ action_cards:
     description: >-
       Learn how Kido simplifies communication and operations, allowing you to
       focus on what truly matters—nurturing young minds.
-    image: /assets/images/action-card-1.png
+    image: /assets/images/action-card-1.svg
     button_text: Schedule a demo
     button_url: /contact
   - title: Are you a parent?
     description: >-
       Discover how Kido keeps you connected to your child’s day-to-day
       experiences, fostering a deeper bond and understanding.
-    image: /assets/images/action-card-2.png
+    image: /assets/images/action-card-2.svg
     button_text: Schedule a demo
     button_url: /contact
 care_is_at_our_core:
@@ -167,8 +167,8 @@ our_promise:
 
     Together, we make the world a little bit better for them, every single day.
   images:
-    - image: /assets/images/our-promise-1.png
-    - image: /assets/images/our-promise-2.png
+    - image: /assets/images/our-promise-1.svg
+    - image: /assets/images/our-promise-2.svg
 bottom_cta:
   title: Ready to start Having Better Conversations at your Kindergarten?
   button_text: Book a free demo call now

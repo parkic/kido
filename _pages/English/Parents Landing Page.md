@@ -104,53 +104,53 @@ features_section:
       description: >-
         Share important updates and announcements with parents and staff in a
         single, unified platform
-      image: /assets/images/card-image-9.png
+      image: /assets/images/card-image-9.svg
     - icon: /assets/icons/card-icon-10.svg
       title: Notifications
       description: >-
         Stay updated with real-time alerts about daily activities, important
         events, and emergencies
-      image: /assets/images/card-image-10.png
+      image: /assets/images/card-image-10.svg
     - icon: /assets/icons/card-icon-11.svg
       title: Messaging
       description: >-
         Simplify communication with direct, secure messaging between parents,
         teachers, and admins
-      image: /assets/images/card-image-11.png
+      image: /assets/images/card-image-11.svg
     - icon: /assets/icons/card-icon-8.svg
       title: Progress Reports
       description: >-
         Track and share a child’s daily progress, including achievements and
         areas for improvement
-      image: /assets/images/card-image-8.png
+      image: /assets/images/card-image-8.svg
     - icon: /assets/icons/card-icon-7.svg
       title: Meal Planning
       description: >-
         Plan and share weekly meal menus, ensuring all dietary needs and
         preferences are met
-      image: ''
+      image: '/assets/images/card-image-7.svg'
     - icon: /assets/icons/card-icon-6.svg
       title: Child Profile
       description: >-
         Keep all critical information about your child, from allergies to
         emergency contacts, easily accessible
-      image: ''
+      image: '/assets/images/card-image-7.svg'
     - icon: /assets/icons/card-icon-12.svg
       title: Photo Galleries
       description: >-
         Capture and share memorable moments with a secure gallery that parents
         can access anytime
-      image: ''
+      image: /assets/images/card-image-12.svg
     - icon: /assets/icons/card-icon-13.svg
       title: Driver Tracking
       description: >-
         Monitor the school bus in real-time to ensure safe and timely pick-ups
         and drop-offs
-      image: ''
+      image: /assets/images/card-image-13.svg
     - icon: /assets/icons/card-icon-14.svg
       title: Customer Support
       description: Access prompt and friendly customer support whenever you need assistance
-      image: /assets/images/card-image-14.png
+      image: /assets/images/card-image-14.svg
 video_section:
   title: |
     Still not convinced you need Kido in your child’s kindergarten?
@@ -182,8 +182,8 @@ our_promise:
 
     Together, we make the world a little bit better for them, every single day.
   images:
-    - image: /assets/images/Log in 2.png
-    - image: /assets/images/Log in 1.png
+    - image: /assets/images/Log in 2.svg
+    - image: /assets/images/Log in 1.svg
 bottom_cta:
   content: >
     Contact us today, and we’ll reach out to your child’s school to make it

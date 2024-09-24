@@ -233,7 +233,7 @@ footer {
   border-radius: 16px;
   padding: 32px 24px 160px;
   min-width: 300px;
-  width: 330px;
+  width: 300px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -254,6 +254,7 @@ footer {
 }
 .feature-card-image {
   height: 160px;
+  right: 0;
 }
 
 .first-cta-box {
@@ -686,6 +687,19 @@ main#pricing {
 #kindergarten-landing-page .bottom-page-cta {
   margin-top: 150px; 
 }
+#parents-landing-page .our-promise,
+#kindergarten-landing-page .our-promise {
+  padding-top: 40px;
+  margin-top: 120px;
+}
+#parents-landing-page .our-promise-image-box,
+#kindergarten-landing-page .our-promise-image-box {
+  transform: scale(1.2);
+}
+#parents-landing-page .our-promise-image-box:nth-child(1),
+#kindergarten-landing-page .our-promise-image-box:nth-child(1){
+  transform: scale(1.2) translateY(-80px);
+}
 
 .calendly-inline-widget {
   min-width: 1200px;
@@ -740,6 +754,20 @@ main#pricing {
   }
   #kindergarten-landing-page .pricing-section img{
     display: none;
+  }
+
+  #parents-landing-page .our-promise, #kindergarten-landing-page .our-promise {
+    padding-top: 120px;
+    margin-top: 0;
+  }
+
+  #parents-landing-page .our-promise-image-box,
+  #kindergarten-landing-page .our-promise-image-box{
+    transform: scale(1);
+  }
+  #parents-landing-page .our-promise-image-box:nth-child(1), 
+  #kindergarten-landing-page .our-promise-image-box:nth-child(1) {
+    transform: translateY(-80px) ;
   }
 
   .action-card {

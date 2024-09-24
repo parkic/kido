@@ -84,8 +84,8 @@ our_promise:
   title: 'Kido cares about all kindergartens equally, regardless of size or budget'
   description: "\LWhether you’re running a small nursery or a large daycare center, it doesn’t matter! We are on a mission to make our solution affordable to everyone! For us, no business is too small.\n\nWith Kido, get used to full blown transparency and honesty.\n\nThere are no hidden fees, no sudden price hikes, and no tiered premium subscriptions that favor larger institutions.\n\nEvery feature we provide is available to all users, big or small, from the moment they sign up.\n\nOur pricing is straightforward and fair, ensuring that your kindergarten receives the best service without any\nsurprises along the way.\n"
   images:
-    - image: /assets/images/Log in 2.png
-    - image: /assets/images/Log in 1.png
+    - image: /assets/images/Log in 2.svg
+    - image: /assets/images/Log in 1.svg
 pricing_section:
   section_title: Simple Affordable Pricing
   section_image: /assets/icons/pricing image.svg
@@ -139,65 +139,65 @@ features_section:
       description: >-
         Easily update and manage all essential kindergarten details in one
         secure place
-      image: /assets/images/card-image-1.png
+      image: /assets/images/card-image-1.svg
     - icon: /assets/icons/card-icon-2.svg
       title: Reports Management
       description: >-
         Streamline the creation and access of daily reports to keep parents and
         staff informed
-      image: /assets/images/card-image-2.png
+      image: /assets/images/card-image-2.svg
     - icon: /assets/icons/card-icon-3.svg
       title: Classroom Management
       description: >-
         Organize and maintain classroom details, assignments, and activities
         with ease
-      image: /assets/images/card-image-3.png
+      image: /assets/images/card-image-3.svg
     - icon: /assets/icons/card-icon-4.svg
       title: Teacher Management
       description: 'Manage teacher profiles, assignments, and roles within your kindergarten'
-      image: /assets/images/card-image-4.png
+      image: /assets/images/card-image-4.svg
     - icon: /assets/icons/card-icon-5.svg
       title: Staff Management
       description: >-
         Centralize and simplify the management of all staff information and
         roles
-      image: /assets/images/card-image-5.png
+      image: /assets/images/card-image-5.svg
     - icon: /assets/icons/card-icon-7.svg
       title: Meal Planning
       description: >-
         Plan and share weekly meal menus, ensuring all dietary needs and
         preferences are met
-      image: ''
+      image: /./assets/images/card-image-7.svg
     - icon: /assets/icons/card-icon-8.svg
       title: Progress Reports
       description: >-
         Track and share a child’s daily progress, including achievements and
         areas for improvement
-      image: /assets/images/card-image-8.png
+      image: /assets/images/card-image-8.svg
     - icon: /assets/icons/card-icon-9.svg
       title: Announcements
       description: >-
         Share important updates and announcements with parents and staff in a
         single, unified platform
-      image: /assets/images/card-image-9.png
+      image: /assets/images/card-image-9.svg
     - icon: /assets/icons/card-icon-10.svg
       title: Notifications
       description: >-
         Stay updated with real-time alerts about daily activities, important
         events, and emergencies
-      image: /assets/images/card-image-10.png
+      image: /assets/images/card-image-10.svg
     - icon: /assets/icons/card-icon-11.svg
       title: Messaging
       description: >-
         Simplify communication with direct, secure messaging between parents,
         teachers, and admins
-      image: /assets/images/card-image-11.png
+      image: /assets/images/card-image-11.svg
     - icon: /assets/icons/card-icon-12.svg
       title: Photo Galleries
       description: >-
         Capture and share memorable moments with a secure gallery that parents
         can access anytime
-      image: ''
+      image: /assets/images/card-image-12.svg
 video_section:
   title: |
     Still have doubts Kido can help?
