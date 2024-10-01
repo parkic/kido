@@ -883,6 +883,11 @@ main#pricing {
   .feature-card .feature-card-image {
     height: 200px;
   }
+  .feature-card .feature-card-image img {
+    height: 100%;
+    position: relative;
+    bottom: 0;
+  }
   .feature-card h4 {
     height: 40px;
   }
@@ -901,6 +906,7 @@ main#pricing {
   }
   .action-card:nth-child(2) > .flex {
     flex-direction: row-reverse;
+
   }
   .action-card .action-card-image {
     max-width: 180px;
@@ -910,7 +916,7 @@ main#pricing {
   }
   .action-card:nth-child(2) .action-card-image {
     left: unset;
-    transform: translateX(-40px);
+    transform: translateX(-10px);
   }
   .action-card:nth-child(2) h3,
   .action-card:nth-child(2) p {

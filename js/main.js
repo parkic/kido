@@ -150,7 +150,7 @@
       slidesPerView: "auto",
       coverflowEffect: {
         rotate: 50,
-        scale: 1.03,
+        scale: isMobile ? 1 : 1.03,
         stretch: 0,
         depth: 100,
         modifier: 1,
