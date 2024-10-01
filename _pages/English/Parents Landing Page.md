@@ -128,13 +128,13 @@ features_section:
       description: >-
         Plan and share weekly meal menus, ensuring all dietary needs and
         preferences are met
-      image: '/assets/images/card-image-7.svg'
+      image: /assets/images/card-image-7.svg
     - icon: /assets/icons/card-icon-6.svg
       title: Child Profile
       description: >-
         Keep all critical information about your child, from allergies to
         emergency contacts, easily accessible
-      image: '/assets/images/card-image-7.svg'
+      image: /assets/images/card-image-7.svg
     - icon: /assets/icons/card-icon-12.svg
       title: Photo Galleries
       description: >-
@@ -158,6 +158,7 @@ video_section:
     Not sure how our features can fit into your daily routine? Watch our short
     explainer video to see how Kido can make staying connected with your child’s
     day easier and more meaningful.
+  video_url: 'https://www.youtube.com/embed/XZ1IN8QpO1w?si=jxqzNVOXJ7FWma9g'
   video_button: Watch Now
 mid_page_cta:
   above_text: Want to see Kido in action at your child’s kindergarten?

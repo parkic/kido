@@ -206,7 +206,7 @@ video_section:
     sure how they can really help?
 
     Check out our short explainer video and clear all doubts:
-  video_url: 'https://www.youtube.com/embed/DTRKSKVFf2I?si=dG_QzvDG9GGS0rOF'
+  video_url: 'https://www.youtube.com/embed/qbAeyWhsLGI?si=Ijm_15Dn7Iqj4JWF'
   video_button: Watch Now
 bottom_cta:
   content: >
