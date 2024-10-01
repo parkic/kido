@@ -235,6 +235,7 @@ footer {
   min-width: 300px;
   width: 300px;
   overflow: hidden;
+  margin: 0 auto;
   transition: all 0.3s ease-in-out;
 }
 .feature-card:hover {
@@ -1020,10 +1021,14 @@ main#pricing {
     height: 32px;
   }
 
+  #parents-landing-page .video-section, 
+  #kindergarten-landing-page .video-section{
+    padding-top: 120px;
+  }
   #parents-landing-page .values-section,
   #kindergarten-landing-page .values-section {
     padding-bottom: 120px;
-    margin-top: 0px;
+    margin-top: 120px;
   }
   #parents-landing-page .value-box,
   #kindergarten-landing-page .value-box {
@@ -1112,6 +1117,11 @@ main#pricing {
   #parents-landing-page footer svg,
   #kindergarten-landing-page footer svg {
     color: #FFF;
+  }
+
+  #parents-landing-page .our-promise-image-box, 
+  #kindergarten-landing-page .our-promise-image-box {
+    transform: scale(1);
   }
 
 }

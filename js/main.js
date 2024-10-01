@@ -132,7 +132,7 @@
 
   
   if (document.querySelector('.feature-card-swiper')) {
-    const autoplaySpeed = 20000
+    const autoplaySpeed = 120000
 
     let featureCardSwiper = new Swiper(".feature-card-swiper", {
       // slidesPerView: 'auto',

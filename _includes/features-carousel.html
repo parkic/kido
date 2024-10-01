@@ -5,7 +5,7 @@
   <div class="swiper-wrapper flex pt-4 px-2 lg:px-10">
     {% if page.layout == 'parentsLP' or page.layout == 'kindergartenLP' %}
       {% for feature in page.features_section.features %}
-      <div class="swiper-slide">
+      <div class="swiper-slide flex items-center justify-center">
         <div class="feature-card-swiper feature-card relative flex flex-col gap-y-5 pb-40">
           <div class="feature-card-icon">
             <img src="{{ feature.icon }}" alt="{{ feature.title }}-icon"> 
@@ -24,7 +24,7 @@
       {% endfor %}
     {% else %}
       {% for feature in page.features %}
-        <div class="swiper-slide">
+        <div class="swiper-slide flex items-center justify-center">
           <div class="feature-card-swiper feature-card relative flex flex-col gap-y-5 pb-40">
             <div class="feature-card-icon">
               <img src="{{ feature.icon }}" alt="{{ feature.title }}-icon"> 
