@@ -91,8 +91,8 @@ pricing_section:
   section_image: /assets/icons/pricing image.svg
   monthly_card:
     title: Monthly
-    main_price: 30€
-    second_price: 360€ / year
+    main_price: 30£
+    second_price: 360£ / year
     description: >-
       Though we strive to make Kido impossibly affordable anyway, purchasing a
       yearly license entitles you to an ever better deal!
