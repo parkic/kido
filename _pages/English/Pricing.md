@@ -23,8 +23,8 @@ pricing_section:
     button_text: Subscribe
   yearly_card:
     title: Yearly
-    main_price: 300€
-    second_price: 25€ / month
+    main_price: 300£
+    second_price: 25£ / month
     description: >-
       Though we strive to make Kido impossibly affordable anyway, purchasing a
       yearly license entitles you to an ever better deal!
