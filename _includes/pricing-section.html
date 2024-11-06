@@ -28,7 +28,7 @@
           {% endfor %}
         </div>
         <div class="flex justify-end">
-          <div class="btn-black flex gap-x-2 items-center cursor-pointer" onclick="openCheckout('monthly')">
+          <div class="btn-black flex gap-x-2 items-center cursor-pointer" onclick="openCreateSchoolModal('monthly')">
             <div>
               {{ page.pricing_section.monthly_card.button_text }}
             </div>
@@ -61,7 +61,7 @@
           {% endfor %}
         </div>
         <div class="flex justify-end">
-          <div class="btn-primary flex gap-x-2 items-center cursor-pointer" onclick="openCheckout('yearly')">
+          <div class="btn-primary flex gap-x-2 items-center cursor-pointer" onclick="openCreateSchoolModal('yearly')">
             <div>
               {{ page.pricing_section.yearly_card.button_text }}
             </div>

@@ -1,0 +1,70 @@
+<div id="popup-modal" class="fixed">
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
+  
+  <div class="fixed inset-0 z-10 w-screen overflow-y-auto flex items-center justify-center" onclick="closeModal()">
+    <div class="flex items-end justify-center w-full" onclick="event.stopPropagation()">
+      <div class="popup-modal-box relative">
+        <div class="absolute cursor-pointer" style="right: 12px; top:12px;" onclick="closeModal()">
+          <svg width="24" height="24" viewBox="0 0 24 24" stroke="black" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 4L20 20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M4 20L20 4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+
+        <!-- Step 1: Create School -->
+        <div id="modal-step-1">
+          <h4 class="text-center">Create new school</h4>
+          <div class="my-10 px-4">
+            <div class="mb-4">
+              <input type="text" id="school-name" oninput="checkError('school-name', 'empty', event)" placeholder="Kindergarten’s name" required />
+              <div id="school-name-error" class="error hidden">This field is required.</div>
+            </div>
+            <div class="mb-4">
+              <input type="text" id="school-phone" oninput="checkError('school-phone', 'empty', event)" placeholder="Phone Number" required />
+              <div id="school-phone-error" class="error hidden">This field is required.</div>
+            </div>
+            <div class="mb-4">
+              <input type="email" id="school-email" oninput="checkError('school-email', 'email', event)" placeholder="School Email" required />
+              <div id="school-email-error" class="error hidden">Please enter a valid email address.</div>
+            </div>
+            <div class="mb-4">
+              <input type="text" id="school-address" oninput="checkError('school-address', 'empty', event)" placeholder="School Address" required />
+              <div id="school-address-error" class="error hidden">This field is required.</div>
+            </div>
+          </div>
+          <div class="px-4">
+            <div id="first-step-error" class="error mb-2 text-center hidden">Please fill all fields for the school</div>
+            <div class="next-button" tabindex="0" onkeypress="handleEnter(2, event)" onclick="nextStep(2)">Next</div>
+          </div>
+        </div>
+
+        <!-- Step 2: Create Admin -->
+        <div id="modal-step-2" style="display: none;">
+          <h4 class="text-center">Create admin's profile</h4>
+          <div class="my-10 px-4">
+            <div class="mb-4">
+              <input type="text" id="admin-first-name" oninput="checkError('admin-first-name', 'empty', event)"  placeholder="First Name" required />
+              <div id="admin-first-name-error" class="error hidden">This field is required.</div>
+            </div>
+            <div class="mb-4">
+              <input type="text" id="admin-last-name" oninput="checkError('admin-last-name', 'empty', event)" placeholder="Last Name" required />
+              <div id="admin-last-name-error" class="error hidden">This field is required.</div>
+            </div>
+            <div class="mb-4">
+              <input type="email" id="admin-email" oninput="checkError('admin-email', 'email', event)" placeholder="Admin Email" required />
+              <div id="admin-email-error" class="error hidden">Please enter a valid email address.</div>
+              <div class="text-sm px-2" style="color: #6B7280">
+                Verification link will be sent to the email associated with this profile for verification.
+              </div>
+            </div>
+          </div>
+          <div class="px-4 mb-6">
+            <div id="second-step-error" class="error mb-2 text-center hidden">Please fill all fields for the school</div>
+            <div class="next-button" tabindex="0" onkeypress="handleEnter(3, event)" onclick="nextStep(3)">Next</div>
+            <div class="back-button" tabindex="0" onkeypress="handleEnter(1, event)" onclick="nextStep(1)">Back</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

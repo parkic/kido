@@ -134,6 +134,9 @@ h6 {
   background-color: #FFF;
   color: var(--orange);
 }
+.border-primary {
+  border-color: var(--orange);
+}
 
 /* --------------------- */
 header {
@@ -713,6 +716,117 @@ main#pricing {
 .swiper-slide-active .feature-card {
   border: 2px solid #A6A4A4;
 }
+
+#popup-modal {
+  display: none;
+  z-index: 1000;
+
+}
+
+#popup-modal.active {
+  display: block;
+}
+.popup-modal-box {
+  background-color: white;
+  padding: 16px;
+  padding-top: 40px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 450px;
+}
+
+.popup-modal-box ul,
+.popup-modal-box ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+#popup-modal input {
+  width: 100%;
+  padding: 0.5rem 1rem; 
+  background-color: white;
+  border: 2px solid #d1d5db;
+  border-radius: 1.5rem;
+  outline: none;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+#popup-modal input:hover {
+  border-color: #9ca3af; 
+}
+
+#popup-modal input:focus {
+  border-color: var(--orange); 
+}
+
+#popup-modal .next-button {
+  padding: 1rem 2rem;
+  position: relative;              
+  background-color: black;       
+  font-weight: 600;               
+  line-height: 1rem;              
+  width: 100%;                    
+  color: white;                  
+  border: 1px solid black;       
+  cursor: pointer;               
+  display: flex;                 
+  align-items: center;           
+  justify-content: center;       
+  border-style: solid;           
+  border-radius: 9999px;         
+  user-select: none;              
+  transition: all 0.3s;           
+  outline: none;             
+  margin-bottom: 1rem;   
+  font-size: 16px;          
+}
+
+#popup-modal .next-button:hover,
+#popup-modal .next-button:focus {
+  background-color: var(--orange); 
+  color: white;                   
+  border-color: var(--orange);    
+}
+
+#popup-modal .back-button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: relative;
+  font-weight: 600;
+  line-height: 1rem;
+  width: 100%;
+  color: black;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  user-select: none;
+  transition: all 0.3s;
+  outline: none;
+  font-size: 16px;   
+}
+
+#popup-modal .back-button:hover,
+#popup-modal .back-button:focus {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+#popup-modal .error {
+  color: red;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+
 
 @media (min-width: 1536px) and (max-width: 1800px) {
   .desktop-images {
