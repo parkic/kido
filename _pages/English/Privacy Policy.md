@@ -40,9 +40,6 @@ privacy_text: >
   We always tell you the reasons we're collecting information.
 
 
-
-
-
   ### CONTACT DETAILS
 
 
@@ -54,17 +51,11 @@ privacy_text: >
   registered as parents or guardians.
 
 
-
-
-
   ### NAME
 
 
   We ask for names so that we can personalize the Kido Cloud experience and
   facilitate communications between school staff and parents or guardians.
-
-
-
 
 
   ### MEDIA CONTENT
@@ -110,9 +101,6 @@ privacy_text: >
   device (for example, a public computer).
 
 
-
-
-
   ### Cookies and Other Usage Tracking Technologies
 
 
@@ -123,9 +111,6 @@ privacy_text: >
   technologies ("Tracking Technologies") help track your site preferences and
   allow us to provide you with the features that are likely to be of greatest
   interest to you based on your previous activities on our websites.
-
-
-
 
 
   ### Information related to GDPR
@@ -160,7 +145,61 @@ privacy_text: >
   address your concern.
 
 
+  **Here's how you can tailor the explanation for the location usage in your
+  privacy policy to reflect its specific purpose:**
 
+
+  ### Location Usage for the App
+
+
+  Our app utilizes location services to provide parents with real-time updates
+  on the location of their children when they are on the bus traveling to and
+  from kindergarten. This feature ensures parents have peace of mind and can
+  track their child’s transit for added safety.
+
+
+  ### Details of Location Usage:
+
+
+  **Purpose**: The app uses the location data of the child’s device (or a
+  designated tracking device) to show real-time updates on their journey.
+
+
+  **Functionality**: Location data is used solely for tracking purposes while
+  the child is in transit and is visible only to authorized parents or
+  guardians.
+
+
+  **Safety Assurance**: This feature helps parents stay informed and ensures
+  that children reach their destination safely.
+
+
+  ### Privacy Policy Explanation
+
+
+  We take the privacy and security of your data very seriously. Here’s how we
+  handle location information:
+
+
+  **Information We Collect**: We collect real-time location data from the
+  child’s device when the bus route begins and ends. This data is only active
+  during transit times and is not continuously tracked outside of these periods.
+
+
+  ##### How We Use Your Data:
+
+
+  **Tracking**: To allow parents or guardians to monitor their child’s journey
+  for safety purposes.
+
+
+  **Notifications**: To send alerts or updates about the bus’s status and
+  estimated arrival times.
+
+
+  **Data Sharing**: The location data is shared exclusively with authorized
+  users (e.g., parents or guardians) through secure in-app access. We do not
+  share location data with third-party advertisers or external parties.
 
 
   ### CHANGES TO THIS PRIVACY POLICY
@@ -176,9 +215,6 @@ privacy_text: >
   modifications and your consent to abide and be bound by the modified Policy.
 
 
-
-
-
   ### ACCEPTANCE OF THESE TERMS
 
 
@@ -191,9 +227,6 @@ privacy_text: >
   Continued use of the Website and/or Schoolvoice Platform(s), following any
   alterations, modifications and/or amendments will be deemed as the Users'
   acceptance of those changes.
-
-
-
 
 
   ### CONTACTING US
