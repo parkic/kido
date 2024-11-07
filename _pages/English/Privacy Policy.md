@@ -2,7 +2,7 @@
 permalink: /privacy-policy/
 layout: privacy
 title: Privacy Policy
-last_updated: 'Last update: April 2024.'
+last_updated: 'Last update: November 2024.'
 privacy_text: >
   ### Your Privacy Matters
 
