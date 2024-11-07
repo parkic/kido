@@ -145,6 +145,8 @@ privacy_text: >
   address your concern.
 
 
+
+
   **Here's how you can tailor the explanation for the location usage in your
   privacy policy to reflect its specific purpose:**
 
