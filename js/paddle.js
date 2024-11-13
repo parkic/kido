@@ -120,7 +120,7 @@ function openCheckout(item, schoolEmail) {
 function handlePaymentSuccess(transaction_id) {
   formData.transaction_id = transaction_id
 
-  fetch('https://sandbox.kido.cloud/api/process-payment', {
+  fetch('https://dev.kido.cloud/api/process-payment', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(formData)
