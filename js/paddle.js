@@ -1,6 +1,5 @@
-Paddle.Environment.set("sandbox")
 Paddle.Initialize({
-  token: 'test_96406623aa9a0b2af2a768b393f',
+token: 'live_6737cab42996802977e7026ba22',
   eventCallback: function(data) {
     if (data.name == "checkout.completed") {
       handlePaymentSuccess(data.data.transaction_id)
@@ -11,11 +10,11 @@ Paddle.Initialize({
 
 const subscriptionPlans = {
   monthly: {
-    priceId: 'pri_01j3yykrygkmh960wqmqz3p1nn',
+    priceId: 'pri_01j5njtaj7nxpymat4jhh0fbny',
     quantity: 1
   },
   yearly :{  
-    priceId: 'pri_01j3yyqbqs9ncga4awv4v3cf5s',
+    priceId: 'pri_01jbybehqqx6z5nh9a0h2ddnrw',
     quantity: 1
   }
 }
@@ -120,7 +119,7 @@ function openCheckout(item, schoolEmail) {
 function handlePaymentSuccess(transaction_id) {
   formData.transaction_id = transaction_id
 
-  fetch('https://dev.kido.cloud/api/process-payment', {
+  fetch('https://app.kido.cloud/api/process-payment', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(formData)
