@@ -1,5 +1,6 @@
+Paddle.Environment.set("sandbox")
 Paddle.Initialize({
-token: 'live_6737cab42996802977e7026ba22',
+  token: 'test_96406623aa9a0b2af2a768b393f',
   eventCallback: function(data) {
     if (data.name == "checkout.completed") {
       handlePaymentSuccess(data.data.transaction_id)
@@ -10,11 +11,11 @@ token: 'live_6737cab42996802977e7026ba22',
 
 const subscriptionPlans = {
   monthly: {
-    priceId: 'pri_01j5njtaj7nxpymat4jhh0fbny',
+    priceId: 'pri_01j3yykrygkmh960wqmqz3p1nn',
     quantity: 1
   },
   yearly :{  
-    priceId: 'pri_01jbybehqqx6z5nh9a0h2ddnrw',
+    priceId: 'pri_01j3yyqbqs9ncga4awv4v3cf5s',
     quantity: 1
   }
 }
